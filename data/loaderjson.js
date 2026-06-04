@@ -1,4 +1,4 @@
-// /data/loaderJSON.js
+// /data/loaderjson.js
 export async function loadAllBancs() {
   const bancsFiles = [
     'banco_estructura.json',
@@ -17,7 +17,7 @@ export async function loadAllBancs() {
 
   const bancs = {};
   const promises = bancsFiles.map(async (file) => {
-    const res = await fetch(`/data/${file}`);
+    const res = await fetch(`./data/${file}`);
     if (!res.ok) throw new Error(`No s'ha pogut carregar ${file}`);
     const key = file.replace('.json', '');
     bancs[key] = await res.json();
