@@ -57,7 +57,7 @@ function renderAllSubtabs() {
 
   renderSubtabs('estructura-content', [3,4,6,8,12], 'nCapitols', v => `${v} cap`);
 
-  const escenaris = bancs.banco_escenarios?.tipos || bancs.escenaris || ['Aleatori','Ciutat','Rural','Històric','Futurista','Mar'];
+  const escenaris = bancs.banco_escenaris?.tipos || bancs.escenaris || ['Aleatori','Ciutat','Rural','Històric','Futurista','Mar'];
   renderSubtabs('mon-content', escenaris, 'mon');
 
   const arquetips = bancs.banco_personatges?.arquetipos || bancs.arquetips || ['Aleatori','Heroïna','Antiheroi','Mentor','Vilà','Grup'];
