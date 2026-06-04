@@ -1,0 +1,385 @@
+[
+  {
+    "id": "per_pol_001",
+    "texto_base": "{{nom}}. {{descripcio_fisica}} {{personalitat}} {{tic}} {{olor_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "Inspector Martí Vallmitjana", "Detectiu Laia Font", "Agent Pere Codina",
+        "Comissari Jordi Roca", "Inspectora Mireia Soler", "Agent Toni Prats",
+        "Detectiu Oriol Noguera", "Comissària Anna Vila", "Inspector Pau Serra",
+        "Agent Sílvia Riu", "Detectiu Biel Costa", "Comissari Marc Font",
+        "Inspectora Clara Bosch", "Agent Nil Reig", "Detectiu Èric Pons"
+      ],
+      "descripcio_fisica": [
+        "Home de quaranta-dos anys, barba de tres dies i ulls grisos que busquen mentides.",
+        "Dona d’uns trenta-cinc, cabell curt i cicatriu fina al polze esquerre.",
+        "Tipus alt i prim, gavardina gastada i sabates que han vist pluja.",
+        "Home baixet, espatlles amples i mirada que no parpelleja.",
+        "Dona prima, ulleres de pasta i mans que no paren de moure’s.",
+        "Home d’uns cinquanta, panxa prominent i veu de fum.",
+        "Dona jove, cabell recollit i cicatriu al llavi.",
+        "Home prim, corbata torta i rellotge antic.",
+        "Dona d’uns quaranta, espatlles tenses i mirada directa.",
+        "Home alt, cames llargues i passos silenciosos.",
+        "Dona baixa, ulls vius i somriure que no arriba.",
+        "Home d’uns trenta, barba mal feta i jaqueta de pell.",
+        "Dona d’uns trenta-dos, cabell recollit i mans fredes.",
+        "Home d’uns quaranta-cinc, espatlles caigudes i ulls cansats.",
+        "Dona prima, ulleres rodones i gestos calculats."
+      ],
+      "personalitat": [
+        "Parla poc, però quan ho fa, tothom calla.",
+        "Té paciència de caçador i mal geni de gat acorralat.",
+        "Confia en la intuïció més que en els informes.",
+        "És tossut fins a l’extrem.",
+        "No confia en ningú que somrigui massa.",
+        "Prefereix escoltar que preguntar.",
+        "Té memòria fotogràfica per cares i mentides.",
+        "És capaç de passar-se 12 hores esperant.",
+        "No creu en les coincidències.",
+        "Prefereix el carrer que el despatx.",
+        "Té el tacte fred però l’ull calent.",
+        "No oblida una cara ni un deute.",
+        "Es mou com si el perseguissin.",
+        "Té el silenci com a arma.",
+        "Sap quan algú menteix pel to."
+      ],
+      "tic": [
+        "Es passa la mà per la barba quan menteixen.",
+        "Colpeja el bolígraf quan s’impacienta.",
+        "Mira per sobre de les ulleres.",
+        "Es frega el polze amb l’índex quan està nerviós.",
+        "Es retoca el coll de la camisa.",
+        "Mira el rellotge cada minut.",
+        "Es mossega el llavi quan dubta.",
+        "Apreta la mandíbula quan menteix.",
+        "Es treu les ulleres per netejar-les.",
+        "Toca la cicatriu quan parla del cas.",
+        "Respira per la boca quan s’enfada.",
+        "Mira per sobre de l’espatlla.",
+        "Toca la butxaca on guarda el mòbil.",
+        "Es retoca el coll de la corbata.",
+        "Mira els reflexos als vidres."
+      ],
+      "olor_ambient": [
+        "Porta l’olor de {{olor}} enganxada a la roba.", "Deixa rastre de {{olor}} quan passa.",
+        "Fa olor de {{olor}} i cafè fred.", "L’aire al seu voltant fa olor de {{olor}}.",
+        "L’olor de {{olor}} el delata.", "Porta {{olor}} i fum enganxat.",
+        "L’aire porta {{olor}} quan s’acosta.", "Fa olor de {{olor}} i paper vell.",
+        "L’olor de {{olor}} el segueix.", "Porta {{olor}} i pluja a la jaqueta.",
+        "L’aire al seu voltant fa olor de {{olor}} i por.", "Fa olor de {{olor}} i suor freda.",
+        "Porta {{olor}} i tinta a les mans.", "L’aire fa olor de {{olor}} quan menteix.",
+        "L’olor de {{olor}} el delata abans de parlar."
+      ]
+    },
+    "rol": "protagonista", "tags": ["policia", "inspector", "Girona"],
+    "genero": "policiac"
+  },
+  {
+    "id": "per_rom_001",
+    "texto_base": "{{nom}}. {{descripcio_fisica}} {{personalitat}} {{tic}} {{so_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "La Marta", "En Pau", "La Júlia", "En Marc", "La Clara", "En Jordi", 
+        "La Nora", "En Biel", "La Sílvia", "En Toni", "La Bruna", "En Nil",
+        "La Èlia", "En Roc", "La Ivet"
+      ],
+      "descripcio_fisica": [
+        "Dona de vint-i-vuit anys, ulls verds i somriure que triga a sortir.",
+        "Home d’uns trenta, jaqueta de llana i mans que no saben on posar.",
+        "Dona elegant, ulleres de pasta i cabell recollit amb pressa.",
+        "Noi alt, samarreta gastada i mirada que fuig quan parles de tu.",
+        "Dona baixa, ulls foscos i riure fàcil.",
+        "Home prim, barba de tres dies i veu baixa.",
+        "Dona rossa, llavis pintats i gestos grans.",
+        "Noi moreno, braços marcats i silenci còmplice.",
+        "Dona d’uns trenta-cinc, ulleres i llibre a la mà.",
+        "Home d’uns vint-i-cinc, samarreta blanca i cicatriu al genoll.",
+        "Dona prima, cabell curt i tatuatge al canell.",
+        "Noi alt, ulls clars i riure que omple.",
+        "Dona d’uns vint-i-nou, ulls foscos i gestos lents.",
+        "Home prim, barba ben retallada i mirada directa.",
+        "Dona baixa, cabell arrissat i somriure fàcil."
+      ],
+      "personalitat": [
+        "Somriu poc, però quan ho fa, sembla sincer.",
+        "Parla massa ràpid quan està nerviós.",
+        "Escolta més del que parla.",
+        "Guarda tot el que sent per no fer mal.",
+        "Fa broma quan té por.",
+        "Té por de dir el que pensa.",
+        "S’ha acostumat a esperar.",
+        "No demana mai el que vol.",
+        "Prefereix escriure que parlar.",
+        "Té el cor a flor de pell.",
+        "No confia fàcilment.",
+        "Somriu quan hauria de plorar.",
+        "Guarda els secrets com a tresors.",
+        "Té por de dir que sí.",
+        "Prefereix mirar que tocar."
+      ],
+      "tic": [
+        "S’aparta els cabells darrere l’orella.",
+        "Juga amb l’anell del dit.",
+        "Baixa la vista quan menteix.",
+        "Es mossega el llavi quan dubta.",
+        "Toca la polsera quan està nerviós.",
+        "Mira el mòbil quan calla.",
+        "S’aparta quan t’acostes massa.",
+        "Somriu quan no toca.",
+        "Tanca els ulls quan parla del passat.",
+        "Es retoca el coll de la camisa.",
+        "Mira el terra quan parla d’ell.",
+        "Respira fons abans de parlar.",
+        "Toca la cicatriu quan menteix.",
+        "Mira per sobre de l’espatlla.",
+        "Es passa la mà pels cabells."
+      ],
+      "so_ambient": [
+        "De fons se sent {{so}}.", "L’aire porta {{olor}}.",
+        "{{ciutat}} sembla callar quan parla.", "El soroll de {{so}} l’acompanya.",
+        "L’aire de {{ciutat}} pesa.", "El soroll de {{so}} el delata.",
+        "{{ciutat}} sembla mirar quan calla.", "L’aire porta {{olor}} i fred.",
+        "El soroll de {{so}} ho fa més real.", "L’aire de {{ciutat}} pesa.",
+        "El soroll de {{so}} l’acompanya.", "L’aire porta {{olor}} i silenci.",
+        "{{ciutat}} sembla respirar.", "El soroll de {{so}} el delata.",
+        "L’aire de {{ciutat}} ho fa tot més intens."
+      ]
+    },
+    "rol": "protagonista", "tags": ["amor", "dubte", "Girona"],
+    "genero": "romance"
+  },
+  {
+    "id": "per_ter_001",
+    "texto_base": "{{nom}}. {{descripcio_fisica}} {{personalitat}} {{tic}} {{so_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "La Sílvia", "En Toni", "La Júlia", "En Oriol", "La Clara", "En Pere", 
+        "La Nora", "En Biel", "La Marta", "En Marc", "La Bruna", "En Nil",
+        "La Èlia", "En Roc", "La Ivet"
+      ],
+      "descripcio_fisica": [
+        "Dona pàl·lida, ulls enfonsats i roba que li penja.",
+        "Home prim, barba descurada i mans que tremolen.",
+        "Noia jove, mirada fixa i passos que no fan soroll.",
+        "Home gran, esquena corbada i un mocador al coll.",
+        "Dona prima, cabell llarg i ulls que no parpellejen.",
+        "Home baix, ulleres gruixudes i veu trencada.",
+        "Noia rossa, pell blanca i cicatriu al coll.",
+        "Home alt, ombres sota els ulls i silenci dens.",
+        "Dona d’uns quaranta, roba fosca i mans fredes.",
+        "Home prim, barba llarga i mirada perduda.",
+        "Noia jove, ulls grans i respiració ràpida.",
+        "Home gran, bastó i silenci que pesa.",
+        "Dona prima, ulls enfonsats i silenci.",
+        "Home baix, ulleres i mans fredes.",
+        "Noia rossa, pell pàl·lida i mirada perduda."
+      ],
+      "personalitat": [
+        "No dorm des de fa dies.",
+        "Parla en veu baixa, com si algú l’escoltés.",
+        "Mira sempre per sobre de l’espatlla.",
+        "No confia ni en la seva ombra.",
+        "Té por de la foscor i de la llum.",
+        "S’ha acostumat a dormir amb la llum encesa.",
+        "No tanca les portes del tot.",
+        "Escolta sorolls que no hi són.",
+        "No mira els miralls.",
+        "Té por del seu propi reflex.",
+        "No parla del que va veure.",
+        "Té nits en blanc.",
+        "Té por del seu propi pensament.",
+        "No tanca els ulls del tot.",
+        "Té por del silenci."
+      ],
+      "tic": [
+        "S’agafa les mans per deixar de tremolar.",
+        "Mira el rellotge cada trenta segons.",
+        "S’apaga la llum quan passa algú.",
+        "Respira per la boca per no fer soroll.",
+        "Toca la porta abans d’obrir-la.",
+        "Mira sota el llit cada nit.",
+        "Tanca les cortines encara que sigui de dia.",
+        "Respira fons abans d’entrar.",
+        "Toca ferro quan passa pel cementiri.",
+        "No camina per sota escales.",
+        "Mira els angles morts.",
+        "Respira quan ningú no mira.",
+        "Toca la cicatriu quan té por.",
+        "Mira els reflexos.",
+        "Respira per la boca."
+      ],
+      "so_ambient": [
+        "{{so}} la persegueix.", "L’aire de {{ciutat}} porta {{olor}}.",
+        "Només se sent {{so}} quan calla.", "{{ciutat}} dorm i això ho fa pitjor.",
+        "El silenci pesa més que {{so}}.", "L’olor de {{olor}} em tapa la boca.",
+        "{{so}} ressona dins el seu cap.", "L’aire de {{ciutat}} és dens.",
+        "{{so}} no s’atura.", "L’olor de {{olor}} és dolça i podrida.",
+        "{{so}} la segueix.", "L’aire porta {{olor}} i fred.",
+        "{{so}} no la deixa pensar.", "L’olor de {{olor}} em tapa la boca.",
+        "Només {{so}} trenca el silenci."
+      ]
+    },
+    "rol": "protagonista", "tags": ["por", "solitud", "Girona"],
+    "genero": "terror"
+  },
+  {
+    "id": "per_thr_001",
+    "texto_base": "{{nom}}. {{descripcio}} {{ment}} {{tic}} {{olor_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "La Mireia", "En Víctor", "La Clara", "En Jordi", "La Sílvia", "En Pau", 
+        "La Nora", "En Biel", "La Marta", "En Marc", "La Bruna", "En Nil",
+        "La Èlia", "En Roc", "La Ivet"
+      ],
+      "descripcio": [
+        "Dona d’uns trenta, ulls que mesuren.", "Home prim, somriure que no arriba.",
+        "Dona elegant, ulleres i silenci.", "Home baix, corbata i mirada freda.",
+        "Dona prima, cabell curt i cicatriu.", "Home alt, jaqueta i mans netes.",
+        "Dona jove, llibreta i bolígraf.", "Home d’uns quaranta, barba i ulls grisos.",
+        "Dona baixa, sabates còmodes i bolso gran.", "Home prim, corbata torta i rellotge.",
+        "Dona rossa, ulls clars i gestos calculats.", "Home moreno, silenci i paciència.",
+        "Dona d’uns trenta-cinc, ulleres i silenci.", "Home baix, corbata i mirada freda.",
+        "Dona prima, cabell curt i cicatriu."
+      ],
+      "ment": [
+        "Sap llegir mentides.", "No confia ni en el seu reflex.",
+        "Té memòria fotogràfica per traïcions.", "Sap quan algú amaga alguna cosa.",
+        "Pot repetir una conversa sencera.", "No oblida un nom ni una cara.",
+        "Detecta microgestos.", "Sap quan menteixes pel to.",
+        "No creu en les coincidències.", "Té teoria per tot.",
+        "Sap quan algú el segueix.", "No dorm sense comprovar la porta.",
+        "Sap quan menteixes pel silenci.", "No confia en el seu propi record.",
+        "Sap quan algú l’observa."
+      ],
+      "tic": [
+        "Revisa les portes.", "Reescriu notes.",
+        "Grava converses.", "Mira per sobre de l’espatlla.",
+        "Toca la butxaca on guarda el mòbil.", "Mira el rellotge cada minut.",
+        "Es retoca el coll de la camisa.", "Respira fons abans de parlar.",
+        "Toca la cicatriu quan menteix.", "Mira el reflex als vidres.",
+        "Es mossega el llavi quan dubta.", "Apreta la mandíbula.",
+        "Toca la butxaca.", "Mira els reflexos.",
+        "Respira per la boca."
+      ],
+      "olor_ambient": [
+        "Porta l’olor de {{olor}} enganxada.", "Deixa rastre de {{olor}}.",
+        "Fa olor de {{olor}} i paper vell.", "L’aire al seu voltant fa olor de {{olor}}.",
+        "L’olor de {{olor}} el delata.", "Porta {{olor}} i tinta a les mans.",
+        "L’aire porta {{olor}} quan menteix.", "Fa olor de {{olor}} i fum.",
+        "L’olor de {{olor}} el segueix.", "Porta {{olor}} i suor freda.",
+        "L’aire al seu voltant fa olor de {{olor}} i por.", "Fa olor de {{olor}} i paper.",
+        "Porta {{olor}} i pluja.", "L’aire fa olor de {{olor}} quan menteix.",
+        "L’olor de {{olor}} el delata abans de parlar."
+      ]
+    },
+    "rol": "protagonista", "tags": ["psique", "manipulacio", "Girona"],
+    "genero": "thriller"
+  },
+  {
+    "id": "per_fan_001",
+    "texto_base": "{{nom}}. {{descripcio}} {{poder}} {{tic}} {{so_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "L’Àlex", "La Bruna", "En Nil", "La Júlia", "En Biel", "La Nora", 
+        "En Marc", "La Sílvia", "En Pau", "La Clara", "En Jordi", "La Marta",
+        "L’Èlia", "En Roc", "La Ivet"
+      ],
+      "descripcio": [
+        "Noi normal, ulleres, samarreta gastada.", "Noia amb motxilla i llibres vells.",
+        "Dona jove, cabell recollit i ulls vius.", "Home prim, jaqueta i silenci.",
+        "Noia baixa, ulleres de pasta i llibreta.", "Home alt, ulls clars i cicatriu.",
+        "Dona rossa, tatuatge i somriure estrany.", "Home moreno, ulls foscos i paciència.",
+        "Noia prima, vestit fosc i mirada intensa.", "Home baix, ulleres i llibre.",
+        "Dona d’uns trenta, cabell llarg i anell estrany.", "Home jove, samarreta i pulsera.",
+        "Dona jove, ulls vius i silenci.", "Home prim, jaqueta i cicatriu.",
+        "Noia baixa, ulleres i llibreta."
+      ],
+      "poder": [
+        "Veu el que no hi és.", "Fa que els llums parpellejin.",
+        "Parla amb els corbs.", "Llegeix pensaments febles.",
+        "Mou objectes petits.", "Escalfa l’aire amb les mans.",
+        "Veu el passat dels objectes.", "Senteix mentides com a fred.",
+        "Fa que les flors es marceixin.", "Pot apagar el foc.",
+        "Parla amb els gats.", "Veu ombres amb pes.",
+        "Pot apagar la llum.", "Veu el futur en somnis.",
+        "Pot curar amb les mans."
+      ],
+      "tic": [
+        "Toca ferro.", "Murmura paraules.",
+        "Dibuixa símbols.", "Es retoca el coll de la camisa.",
+        "Tanca els ulls quan usa el poder.", "Respira fons abans.",
+        "Mira les mans quan parla.", "Toca l’anell estrany.",
+        "Es mossega el llavi.", "Mira el cel quan pensa.",
+        "Toca la cicatriu.", "Respira per la boca.",
+        "Tanca els ulls.", "Respira fons.",
+        "Mira les mans."
+      ],
+      "so_ambient": [
+        "{{so}} canvia quan l’usa.", "L’aire porta {{olor}}.",
+        "{{ciutat}} sembla viure.", "El so de {{so}} és diferent ara.",
+        "{{so}} ressona dins seu.", "L’aire porta {{olor}} i llum.",
+        "{{so}} no s’atura.", "L’olor de {{olor}} és metàl·lica.",
+        "{{so}} el segueix.", "L’aire porta {{olor}} i meravella.",
+        "{{so}} no el deixa pensar.", "L’olor de {{olor}} em tapa la boca.",
+        "Només {{so}} trenca el silenci.", "{{so}} ressona.",
+        "L’aire porta {{olor}}."
+      ]
+    },
+    "rol": "protagonista", "tags": ["magia", "ocult", "Girona"],
+    "genero": "fantasia"
+  },
+  {
+    "id": "per_com_001",
+    "texto_base": "{{nom}}. {{descripcio}} {{humor}} {{tic}} {{so_ambient}}",
+    "banco_variables": {
+      "nom": [
+        "En Pau", "La Marta", "En Toni", "La Júlia", "En Biel", "La Nora", 
+        "En Marc", "La Sílvia", "En Jordi", "La Clara", "En Nil", "La Bruna",
+        "L’Èlia", "En Roc", "La Ivet"
+      ],
+      "descripcio": [
+        "Tipus normal, mala sort crònica.", "Noia brillant, vida desastrosa.",
+        "Home baix, ulleres i riure fàcil.", "Dona alta, ulls clars i desastre.",
+        "Noi prim, samarreta gastada i optimisme.", "Dona prima, cabell curt i ironia.",
+        "Home moreno, ulls foscos i mala punteria.", "Dona rossa, ulls clars i riure alt.",
+        "Noi alt, jaqueta gran i silenci incòmode.", "Dona baixa, ulleres i gestos grans.",
+        "Home jove, barba de tres dies i optimisme absurd.", "Dona d’uns trenta, tatuatge i sarcasme.",
+        "Tipus normal, mala sort.", "Noia brillant, desastre.",
+        "Home baix, ulleres i riure."
+      ],
+      "humor": [
+        "Es riu quan hauria de plorar.", "Fa broma per no morir-se.",
+        "És un desastre amb encant.", "Té mala sort i ho sap.",
+        "Riure és el seu mecanisme de defensa.", "Fa broma quan té por.",
+        "Té humor negre.", "Riu quan s’equivoca.",
+        "Fa broma quan callaria.", "Té riure contagiós.",
+        "Fa broma quan no toca.", "Riu quan està nerviós.",
+        "Fa broma quan té por.", "Riu quan s’equivoca.",
+        "Fa broma quan callaria."
+      ],
+      "tic": [
+        "Parla sol.", "Fingeix trucades.",
+        "Porta ulleres de sol de nit.", "Es retoca el coll de la camisa.",
+        "Mira el mòbil quan calla.", "Somriu quan no toca.",
+        "Es mossega el llavi quan menteix.", "Toca la polsera.",
+        "Mira el terra quan parla d’ell.", "Respira fons abans de parlar.",
+        "Toca la cicatriu.", "Mira per sobre de l’espatlla.",
+        "Parla sol.", "Fingeix trucades.",
+        "Porta ulleres de sol."
+      ],
+      "so_ambient": [
+        "De fons {{so}} fa que sigui pitjor.", "L’aire porta {{olor}} i riure contingut.",
+        "{{ciutat}} sencera sembla mirar.", "El soroll de {{so}} ho amplifica.",
+        "L’olor de {{olor}} em mareja.", "Se sent un silenci incòmode.",
+        "{{so}} ressona dins seu.", "L’aire porta {{olor}} i riure.",
+        "{{so}} no s’atura.", "L’olor de {{olor}} és incòmoda.",
+        "{{so}} el persegueix.", "L’aire porta {{olor}} i vergonya.",
+        "{{so}} no el deixa pensar.", "L’olor de {{olor}} em tapa la boca.",
+        "Només {{so}} trenca el silenci."
+      ]
+    },
+    "rol": "protagonista", "tags": ["humor", "desastre", "Girona"],
+    "genero": "comedia"
+  }
+      ]
