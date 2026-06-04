@@ -1,0 +1,213 @@
+{
+  "beats": [
+    {
+      "id": 1,
+      "nom": "Imagen_inicial",
+      "percent": 0.01,
+      "objectiu": "Mostrar el món normal del protagonista abans del caos. Mostrar el seu flaw principal.",
+      "emocions_permeses": ["calma", "rutina", "avorriment", "comoditat", "monotonia", "pau"],
+      "tipus_escena": "exposicio",
+      "preguntes_lectura": 2,
+      "vocab_generes": {
+        "policiac": ["comissaria", "paperassa", "cafè fred", "cas antic", "rutina", "informes", "arxiu", "patrulla nocturna", "ràdio policia", "escriptori desordenat", "dossier polsós", "tornada a casa tard"],
+        "misterio": ["casa gran", "silenci", "fotografia antiga", "porta tancada", "rellotge parat", "polseguera", "carta sense obrir", "gàbia buida", "mirall cobert", "calaix amb clau"],
+        "thriller": ["rellotge", "espera", "mirar per la finestra", "silenci tens", "telefonada tallada", "llum parpellejant", "pas al passadís", "porta entreoberta", "missatge esborrat", "ombra al mur"],
+        "drama": ["cuina", "conversa familiar", "feina", "factures", "taula parada", "sofà vell", "fotografia família", "discussió en veu baixa", "silenci incòmode", "menjar refredat"],
+        "romance": ["cafeteria", "missatge sense respondre", "caminar sol", "pluja", "banc al parc", "llibre a mitges", "cadira buida", "cançó a la ràdio", "mirar el mòbil", "cafè per dos"],
+        "aventura": ["mapa", "motxilla", "preparatius", "bitllet", "brúixola", "bota vella", "tenda de campanya", "guia de viatge", "passaport", "llista equipatge"],
+        "fantasia": ["llibre d’encanteris", "ciutat tranquil·la", "mercat", "aura màgica", "font encantada", "taverna", "cristall brillant", "pergamí", "bastó", "porta rúnica"],
+        "terror": ["casa buida", "passadís fosc", "mirall", "soroll llunyà", "porta que cruix", "ombra mòbil", "respiració al darrere", "fotografia borrosa", "ninot caigut", "gota freda al coll"]
+      }
+    },
+    {
+      "id": 2,
+      "nom": "Tema_plantejat",
+      "percent": 0.05,
+      "objectiu": "Plantejar la lliçó moral del llibre a través d'un personatge secundari.",
+      "emocions_permeses": ["curiositat", "dubte", "reflexió", "sorpresa"],
+      "tipus_escena": "dialog",
+      "preguntes_lectura": 2,
+      "vocab_temes": [
+        "Ningú pot fugir del seu passat",
+        "La veritat sempre surt",
+        "L’amor val més que la por",
+        "La venjança no cura",
+        "Per guanyar has de perdre algo",
+        "La confiança es trenca un cop",
+        "El silenci també mata",
+        "Tothom amaga un secret",
+        "El coratge neix de la por",
+        "No pots salvar tothom"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Setup",
+      "percent": 0.10,
+      "objectiu": "Presentar protagonista, flaw, objectiu, món i personatges secundaris clau.",
+      "emocions_permeses": ["esperança", "desig", "frustració", "ambició"],
+      "tipus_escena": "presentacio",
+      "preguntes_lectura": 2,
+      "vocab_flaws": ["impulsiv", "desconfiat", "orgullós", "poruc", "obsessiu", "cínic", "testarrut", "gelós", "naïf", "addicte al treball", "evitatiu", "venjatiu"],
+      "vocab_objectius": ["trobar", "escapar", "salvar", "descobrir", "venjar", "protegir", "recuperar", "exposar", "conquerir", "demostrar", "resoldre", "reunir"]
+    },
+    {
+      "id": 4,
+      "nom": "Catalitzador",
+      "percent": 0.10,
+      "objectiu": "Trencar la normalitat. Incident que obliga al protagonista a actuar.",
+      "emocions_permeses": ["sorpresa", "por", "ràbia", "xoc", " incredulitat"],
+      "tipus_escena": "gir",
+      "preguntes_lectura": 3,
+      "vocab_generes": {
+        "policiac": ["cadàver", "trucada anònima", "prova desapareguda", "amenaza", "bossa amb diners", "arma al calaix", "fotografia compromesa", "testimoni mort", "ordre d’arrest", "xantatge"],
+        "misterio": ["carta anònima", "habitació buida", "objecte mogut", "veu", "clau nova", "passadís secret", "diari desaparegut", "finestra trencada", "petjada fangosa", "perfum estrany"],
+        "thriller": ["persecució", "bomba", "segrest", "filmació", "xip robat", "dossier classificat", "cotxe sense matrícula", "missatge codificat", "vení al cafè", "rastre de sang"],
+        "drama": ["diagnòstic", "traïció", "acomiadament", "secret", "embaràs inesperat", "deute", "carta d’advocat", "fotografia antiga", "confessió", "accident"],
+        "romance": ["ex apareix", "petó inesperat", "malentès", "proposta", "missatge erroni", "troballa al carrer", "confessió borratxo", "foto comprometedora", "viatge sorpresa", "gelosia"],
+        "aventura": ["mapa robat", "tempesta", "portal", "criatura", "terratrèmol", "vaixell enfonsat", "compàs trencat", "senyal fum", "caça recompensa", "runa antiga"],
+        "fantasia": ["profecia", "maledicció", "artefacte despertat", "drac", "portal màgic", "encanteri trencat", "orcle parla", "grial brillant", "torre cau", "fang fosc"],
+        "terror": ["assassinat", "aparició", "possessió", "ritual", "mirall trencat", "ninot parla", "sang a la paret", "porta s’obre sola", "veu al telèfon", "ombra sense cos"]
+      }
+    },
+    {
+      "id": 5,
+      "nom": "Debat",
+      "percent": 0.25,
+      "objectiu": "El protagonista dubta. 'Entro al món nou o no?'",
+      "emocions_permeses": ["por", "dubte", "ansietat", "negació", "paràlisi"],
+      "tipus_escena": "confrontacio_interna",
+      "preguntes_lectura": 3,
+      "vocab_dilemes": [
+        "Si vaig, puc morir",
+        "Si no vaig, perdré a algú",
+        "No estic preparat",
+        "No tinc elecció",
+        "Em creuran boig",
+        "Ja ho he intentat abans",
+        "No sóc l’heroi",
+        "El preu és massa alt",
+        "Puc confiar?",
+        "I si fallo de nou?"
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Punto_de_giro_1",
+      "percent": 0.25,
+      "objectiu": "El protagonista decideix entrar al món nou. Fi de l'Acte 1.",
+      "emocions_permeses": ["determinació", "por", "valentia", "resignació"],
+      "tipus_escena": "decisio",
+      "preguntes_lectura": 2,
+      "vocab_accions": ["creuar porta", "agafar arma", "pujar al tren", "dir que sí", "saltar", "signar paper", "trucar número", "obrir carta", "encendre llum", "trencar promesa"]
+    },
+    {
+      "id": 7,
+      "nom": "B_Story",
+      "percent": 0.30,
+      "objectiu": "Introduir la subtrama emocional. Romance, amistat o mentor.",
+      "emocions_permeses": ["connexió", "atracció", "complicitat", "tendresa"],
+      "tipus_escena": "relacio",
+      "preguntes_lectura": 2,
+      "vocab_relacions": ["mentor", "company", "interès amorós", "amic infància", "antagonista redimit", "germà perdut", "veí curiós", "informant", "guia", "ombra protectora"]
+    },
+    {
+      "id": 8,
+      "nom": "Fun_and_Games",
+      "percent": 0.50,
+      "objectiu": "La promesa del gènere. El gènere brilla aquí.",
+      "emocions_permeses": ["diversió", "aventura", "tensió", "eufòria"],
+      "tipus_escena": "desenvolupament",
+      "preguntes_lectura": 2,
+      "vocab_generes": {
+        "policiac": ["interrogatori", "persecució cotxe", "pista falsa", "autòpsia", "escorcoll", "tapadura", "rueda reconeixement", "soplón", "dossier secret", "batuda"],
+        "misterio": ["cerca pistes", "entrevista sospitós", "habitació secreta", "codi xifrat", "passadís ocult", "llibre amb anotacions", "retrat alterat", "objecte desaparegut"],
+        "thriller": ["bomba rellotge", "traïció", "cursa contra temps", "microfilm", "xip secret", "vení tòxic", "filmació incriminatòria", "doble agent"],
+        "drama": ["confrontació familiar", "judici", "reconciliació", "discurs", "carta llegida", "foto reveladora", "confessió plorant", "abraçada tardana"],
+        "romance": ["cita", "gelosia", "malentès còmic", "petó sota pluja", "ball lent", "carta amor", "viatge junts", "declaració borratxo", "gelosia infundada"],
+        "aventura": ["trampa", "tresor", "mapa", "monstre", "pont penjant", "tempesta mar", "cova fosca", "criatura alada", "duna mòbil", "runa guardada"],
+        "fantasia": ["duel màgic", "criatura mítica", "ciutat volant", "drac jove", "encanteri fallit", "poció explosiva", "portal inestable", "bastó robat"],
+        "terror": ["jumpscare", "persecució fosc", "possessió", "ritual", "mirall sagnant", "ninot mou cap", "veu al ràdio", "porta s’obre sola", "sombra s’allarga", "aire glaçat"]
+      }
+    },
+    {
+      "id": 9,
+      "nom": "Punto_medio",
+      "percent": 0.50,
+      "objectiu": "Falsa victòria o falsa derrota. Pujar l'aposta al màxim.",
+      "emocions_permeses": ["eufòria", "triomf", "tensió", "por", "il·lusió"],
+      "tipus_escena": "climax_parcial",
+      "preguntes_lectura": 3,
+      "vocab_girs": ["falsa victòria", "traïció", "revelació", "perdre aliats", "arma trobada", "pista falsa", "falsa mort", "doble agent descobert", "secret revelat", "prova manipulada"]
+    },
+    {
+      "id": 10,
+      "nom": "Malos_se_acercan",
+      "percent": 0.75,
+      "objectiu": "Complicacions. L'antagonista contraataca. El prota perd control.",
+      "emocions_permeses": ["pànic", "desesperació", "pressió", "impotència"],
+      "tipus_escena": "obstacle",
+      "preguntes_lectura": 3,
+      "vocab_obstacles": ["pla falla", "aliat cau", "temps s’esgota", "secret revelat", "arma trencada", "carta interceptada", "porta bloquejada", "pista esborrada", "prova destruïda", "testimoni silenci"]
+    },
+    {
+      "id": 11,
+      "nom": "Todo_es_perdido",
+      "percent": 0.75,
+      "objectiu": "Pitjor moment del protagonista. Toca fons.",
+      "emocions_permeses": ["desesperació", "derrota", "dolor", "buit"],
+      "tipus_escena": "caiguda",
+      "preguntes_lectura": 2,
+      "vocab_caiguda": ["mort aliats", "captura", "pèrdua objectiu", "traïció total", "arma lliurada", "secret publicat", "casa cremada", "nom tacat", "soledat absoluta", "promesa trencada"]
+    },
+    {
+      "id": 12,
+      "nom": "Noche_oscura_del_alma",
+      "percent": 0.90,
+      "objectiu": "Reflexió. El protagonista entén la lliçó del Tema del beat 2.",
+      "emocions_permeses": ["reflexió", "tristesa", "comprensió", "pau"],
+      "tipus_escena": "revelacio_interna",
+      "preguntes_lectura": 1,
+      "vocab_revelacions": ["ha de perdonar", "ha de confiar", "ha de sacrificar-se", "ha de dir la veritat", "ha de deixar anar", "ha d’acceptar", "ha de tornar", "ha de demanar ajuda"]
+    },
+    {
+      "id": 13,
+      "nom": "Punto_de_giro_2",
+      "percent": 0.90,
+      "objectiu": "El protagonista troba la solució. Fi de l'Acte 2.",
+      "emocions_permeses": ["esperança", "determinació", "claredat", "força"],
+      "tipus_escena": "pla",
+      "preguntes_lectura": 2,
+      "vocab_plans": ["pla final", "última oportunitat", "tot o res", "sacrifici", "trampa inversa", "aliança improbable", "arma secreta", "veritat revelada"]
+    },
+    {
+      "id": 14,
+      "nom": "Climax",
+      "percent": 0.95,
+      "objectiu": "Enfrontament final amb l'antagonista. Aplica la lliçó del Tema.",
+      "emocions_permeses": ["valentia", "determinació", "ràbia", "triomf", "alliberament"],
+      "tipus_escena": "confrontacio_final",
+      "preguntes_lectura": 0,
+      "vocab_generes": {
+        "policiac": ["tiroteig", "interrogatori final", "confessió", "batuda", "detenció", "arma lliurada", "prova definitiva", "jutge entra"],
+        "misterio": ["revelació assassí", "habitació tancada", "trampa descoberta", "diari llegit", "clau gira", "mirall trencat"],
+        "thriller": ["bomba desactivada", "confrontació pont", "xip destruït", "cotxe cau", "tiroteig túnel", "missatge enviat"],
+        "drama": ["discurs final", "judici", "reconciliació", "abraçada plorant", "carta llegida", "perdó demanat"],
+        "romance": ["declaració", "carrera aeroport", "petó final", "anell lliurat", "carta amor", "ball final"],
+        "aventura": ["batalla final", "tresor obert", "portal tancat", "drac mort", "mapa cremat", "bandera hissada"],
+        "fantasia": ["duel màgic", "drac derrotat", "encanteri final", "corona posada", "portal tancat", "profecia complerta"],
+        "terror": ["exorcisme", "monstre mort", "fuga laberint", "mirall trencat", "ritual invertit", "porta segellada"]
+      }
+    },
+    {
+      "id": 15,
+      "nom": "Imagen_final",
+      "percent": 1.00,
+      "objectiu": "Foto del món nou. Contrast directe amb la Imagen inicial del beat 1.",
+      "emocions_permeses": ["pau", "triomf", "nostàlgia", "satisfacció", "serenitat"],
+      "tipus_escena": "tancament",
+      "preguntes_lectura": 1,
+      "vocab_tancaments": ["posta sol", "somriure", "carta", "mirada lluny", "nou començament", "porta oberta", "camí lliure", "foto nova", "brindis", "silenci dolç"]
+    }
+  ]
+    }
