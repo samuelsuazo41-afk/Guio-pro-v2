@@ -1,0 +1,312 @@
+[
+  {
+    "id": "ubi_girona",
+    "ciutat": "Girona",
+    "pais": "Espanya",
+    "banco_variables": {
+      "so": [
+        "el so dels passos a la pedra del Barri Vell",
+        "el murmuri del riu Onyar sota el Pont de Ferro",
+        "les campanes de la Catedral",
+        "el trànsit llunyà de la Devesa",
+        "el silenci del Call Jueu a mitjanit",
+        "el so dels turistes al Pont de les Peixateries",
+        "el vent entre els murs del Castell",
+        "el xiulet d’un tren que passa"
+      ],
+      "olor": [
+        "olor de pedra mullada i riu",
+        "olor de cafè torrat i croissant",
+        "olor de flors de jacaranda a la primavera",
+        "olor de fum i llenya als hiverns",
+        "olor de mar que puja pel Ter",
+        "olor de llibres vells al carreró",
+        "olor de pluja sobre pedra",
+        "olor de pa acabat de fer"
+      ],
+      "clima": [
+        "fred i humit a l’hivern",
+        "calor sec a l’estiu",
+        "pluja fina a la tardor",
+        "boira matinal a la primavera"
+      ]
+    },
+    "tags": ["catalunya", "ribera", "historic"]
+  },
+  {
+    "id": "ubi_besalu",
+    "ciutat": "Besalú",
+    "pais": "Espanya",
+    "banco_variables": {
+      "so": [
+        "el so del riu Fluvià sota el pont romànic",
+        "el silenci del call jueu medieval",
+        "les passes ressonant a la plaça",
+        "el vent entre les pedres del castell",
+        "el murmuri dels turistes llunyà"
+      ],
+      "olor": [
+        "olor de pedra vella i humitat",
+        "olor de riu i molsa",
+        "olor de fum de xemeneia",
+        "olor de pa de pagès",
+        "olor de pols i temps"
+      ],
+      "clima": [
+        "fred sec a l’hivern",
+        "calor a l’estiu",
+        "boira matinal a la tardor",
+        "pluja fina a la primavera"
+      ]
+    },
+    "tags": ["catalunya", "poble", "medieval"]
+  },
+  {
+    "id": "ubi_cadaques",
+    "ciutat": "Cadaqués",
+    "pais": "Espanya",
+    "banco_variables": {
+      "so": [
+        "el so de les ones trencant a la badia",
+        "el vent entre les cases blanques",
+        "el murmuri dels pescadors",
+        "el silenci del cap de Creus",
+        "el crit de les gavines"
+      ],
+      "olor": [
+        "olor de sal i mar",
+        "olor de peix fresc",
+        "olor de pins i sol",
+        "olor de fum de graella",
+        "olor de crema solar"
+      ],
+      "clima": [
+        "tramuntana forta",
+        "sol i mar tot l’estiu",
+        "fred sec a l’hivern",
+        "vent constant"
+      ]
+    },
+    "tags": ["catalunya", "costa", "poble"]
+  },
+  {
+    "id": "ubi_barcelona",
+    "ciutat": "Barcelona",
+    "pais": "Espanya",
+    "banco_variables": {
+      "so": [
+        "el so del metro Línia 3 sota terra",
+        "les ones trencant a la Barceloneta",
+        "el murmuri de La Rambla",
+        "el so dels turistes a la Sagrada Família",
+        "el trànsit del Passeig de Gràcia",
+        "el silenci del Parc Güell a primera hora",
+        "el so dels carrers del Born",
+        "el xiscle dels tramvies"
+      ],
+      "olor": [
+        "olor de sal i mar",
+        "olor de fum i graella als xiringuitos",
+        "olor de crema solar i sorra",
+        "olor de fum de metro i ferro",
+        "olor de pa torrat als bars",
+        "olor de flors i pins a Collserola",
+        "olor de pintura fresca als murs",
+        "olor de pluja sobre asfalt"
+      ],
+      "clima": [
+        "humitat marina tot l’any",
+        "tramuntana a l’hivern",
+        "calor asfixiant a l’agost",
+        "vent de mar a la primavera"
+      ]
+    },
+    "tags": ["catalunya", "mar", "urbana"]
+  },
+  {
+    "id": "ubi_cdmx",
+    "ciutat": "Ciutat de Mèxic",
+    "pais": "Mèxic",
+    "banco_variables": {
+      "so": [
+        "el so dels venedors ambulants al Zòcalo",
+        "el trànsit intens de l’Avinguda Reforma",
+        "la música de mariachi a Coyoacán",
+        "el murmuri del Metro Línia 1",
+        "el silenci de les piràmides de Teotihuacán",
+        "el so dels autobusos al Perifèric",
+        "el cant dels ocells al Bosque de Chapultepec",
+        "el murmuri de la multitud al Mercat de Coyoacán"
+      ],
+      "olor": [
+        "olor de tortilla i xile",
+        "olor de smog i fum de cotxe",
+        "olor de flors de jacaranda",
+        "olor de pluja sobre terra calenta",
+        "olor de sucre i canyella",
+        "olor de cafè i pan dolç",
+        "olor de pols i pedra volcànica",
+        "olor de mariachi i fum"
+      ],
+      "clima": [
+        "alçada que ofega a 2240m",
+        "pluja a la tarda a l’estiu",
+        "fred sec a l’hivern",
+        "smog constant"
+      ]
+    },
+    "tags": ["mexico", "alçada", "urbana"]
+  },
+  {
+    "id": "ubi_tepoztlan",
+    "ciutat": "Tepoztlán",
+    "pais": "Mèxic",
+    "banco_variables": {
+      "so": [
+        "el so del vent entre les muntanyes",
+        "el murmuri del mercat artesanal",
+        "el silenci del Tepozteco",
+        "el so dels grills a la nit",
+        "el murmuri dels turistes espirituals"
+      ],
+      "olor": [
+        "olor de copal i encens",
+        "olor de terra mullada i muntanya",
+        "olor de flors i frangipani",
+        "olor de fum de llenya",
+        "olor de pols i pedra"
+      ],
+      "clima": [
+        "fred sec a la nit",
+        "calor humit al dia",
+        "pluja a la tarda",
+        "boira a la muntanya"
+      ]
+    },
+    "tags": ["mexico", "poble", "mistic"]
+  },
+  {
+    "id": "ubi_buenosaires",
+    "ciutat": "Buenos Aires",
+    "pais": "Argentina",
+    "banco_variables": {
+      "so": [
+        "el bandoneó del tango a San Telmo",
+        "el so dels taxis a l’Avinguda Corrientes",
+        "el murmuri del Subte Línia A",
+        "el so dels venedors a La Boca",
+        "el silenci del Cementiri de la Recoleta",
+        "el so dels trens de la Mitre",
+        "el murmuri del Parc Tres de Febrer",
+        "el so dels carrers empedrats"
+      ],
+      "olor": [
+        "olor de cafè i fum de cigarreta",
+        "olor de carn a la graella",
+        "olor de pluja sobre pedra",
+        "olor de cuir vell a San Telmo",
+        "olor de flors i til·lers",
+        "olor de vi i fum de bar",
+        "olor de mar del Riu de la Plata",
+        "olor de pols i temps"
+      ],
+      "clima": [
+        "humitat alta tot l’any",
+        "vent pampero a l’hivern",
+        "calor enganxosa a l’estiu",
+        "pluja sobtada a la primavera"
+      ]
+    },
+    "tags": ["argentina", "tango", "urbana"]
+  },
+  {
+    "id": "ubi_colonia",
+    "ciutat": "Colònia del Sacramento",
+    "pais": "Uruguai",
+    "banco_variables": {
+      "so": [
+        "el so de les ones contra el muralló",
+        "el silenci del barri històric",
+        "el murmuri dels turistes",
+        "el vent entre els fanals",
+        "el so dels gats al carreró"
+      ],
+      "olor": [
+        "olor de sal i mar del Riu de la Plata",
+        "olor de pedra mullada",
+        "olor de flors i til·lers",
+        "olor de fum de llenya",
+        "olor de pols i història"
+      ],
+      "clima": [
+        "humitat del riu",
+        "vent constant",
+        "fred humit a l’hivern",
+        "sol i mar a l’estiu"
+      ]
+    },
+    "tags": ["uruguai", "poble", "historic"]
+  },
+  {
+    "id": "ubi_medellin",
+    "ciutat": "Medellín",
+    "pais": "Colòmbia",
+    "banco_variables": {
+      "so": [
+        "el so del Metro de Medellín",
+        "la música de reggaeton al Poblado",
+        "el murmuri de la gent a la Comuna 13",
+        "el so dels autobusos pujant el pendent",
+        "el silenci de les muntanyes al voltant",
+        "el so dels venedors ambulants",
+        "el murmuri del Parc Lleras",
+        "el so de les escales elèctriques"
+      ],
+      "olor": [
+        "olor de pluja i terra mullada",
+        "olor de cafè fresc",
+        "olor de fruita tropical",
+        "olor de fum i graella",
+        "olor de flors i muntanya",
+        "olor de fum de moto",
+        "olor de pols i pendent",
+        "olor de sucre i alcohol"
+      ],
+      "clima": [
+        "primavera eterna a 1500m",
+        "pluja a la tarda",
+        "humitat alta",
+        "fred suau a la nit"
+      ]
+    },
+    "tags": ["colombia", "muntanya", "urbana"]
+  },
+  {
+    "id": "ubi_villa",
+    "ciutat": "Villa de Leyva",
+    "pais": "Colòmbia",
+    "banco_variables": {
+      "so": [
+        "el so del vent a la plaça major",
+        "el murmuri dels turistes",
+        "el silenci dels carrers empedrats",
+        "el so dels cavalls",
+        "el murmuri del mercat"
+      ],
+      "olor": [
+        "olor de pedra i pols",
+        "olor de flors i jardins",
+        "olor de fum de llenya",
+        "olor de cafè fresc",
+        "olor de pols i sol"
+      ],
+      "clima": [
+        "fred sec a la nit",
+        "sol fort al dia",
+        "vent constant",
+        "pluja escassa"
+      ]
+    },
+    "tags": ["colombia", "poble", "colonial"]
+  }
+      ]
