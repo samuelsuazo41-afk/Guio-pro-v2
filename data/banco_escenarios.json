@@ -1,0 +1,629 @@
+[
+  {
+    "id": "esc_gir_cafe_001",
+    "ciutat": "Girona",
+    "pais": "Espanya",
+    "nom": "Cafè La Rosaleda",
+    "texto_base": "Dins de {{nom}}, a {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Taules de fusta vella i cadires que grinyolen",
+        "Barra plena de gent amb diari i cafè",
+        "Finestra emboirada per la humitat",
+        "Ràdio de fons amb música catalana",
+        "Terrassa petita mirant al carreró",
+        "Miralls antics que reflecteixen el fum",
+        "Llibres apilats al taulell",
+        "Olor de croissant acabat de treure"
+      ],
+      "so": [
+        "Se sent el xoc de tasses", "De fons sona el trànsit de la Devesa",
+        "Algú riu a la taula del costat", "El cambrer crida una comanda",
+        "La porta s’obre i entra fred", "El mòlins de cafè grinyola",
+        "Una cullera xoca contra la tassa", "La ràdio canvia d’emissora"
+      ],
+      "olor": [
+        "Fa olor de cafè torrat i pa", "L’aire porta olor de pluja i pedra mullada",
+        "Fa olor de croissant calent", "L’olor de tabac vell s’enfila",
+        "Fa olor de netejador i cafè", "L’aire porta olor de mar",
+        "Fa olor de llet calenta", "L’olor de sucre cremat"
+      ]
+    },
+    "tags": ["interior", "public", "dia"],
+    "genero": ["policiac", "romance", "comedia"]
+  },
+  {
+    "id": "esc_gir_catedral_001",
+    "ciutat": "Girona",
+    "pais": "Espanya",
+    "nom": "Catedral de Girona, Barri Vell",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Pedra freda i humida sota els peus",
+        "Vitalls que pinten el terra de colors",
+        "Bancs buits i silenci dens",
+        "Escales que pugen cap a la torre",
+        "Ombres llargues entre les columnes",
+        "Ciris encesos al fons",
+        "Porta de fusta massissa entreoberta",
+        "Ecos que reboten a la volta"
+      ],
+      "so": [
+        "Les campanes ressonen lluny", "Els passos ressonen a la nau",
+        "Un murmuri que no s’entén", "El vent xiula per les finestres",
+        "La porta grinyola en tancar-se", "Silenci que pesa",
+        "Un cop sec llunyà", "El so d’aigua que degota"
+      ],
+      "olor": [
+        "Fa olor d’encens i pedra vella", "L’aire és fred i humit",
+        "Fa olor de cera cremada", "L’olor de pols antiga",
+        "Fa olor de fusta mullada", "L’aire porta olor de pluja",
+        "Fa olor de ciris", "L’olor de pedra i temps"
+      ]
+    },
+    "tags": ["interior", "sagrat", "claustrofobic"],
+    "genero": ["terror", "policiac", "thriller"]
+  },
+  {
+    "id": "esc_bcn_metro_001",
+    "ciutat": "Barcelona",
+    "pais": "Espanya",
+    "nom": "Metro Línia 3, Estació Passeig de Gràcia",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Andana plena, gent que corre",
+        "Vagó buit a mitja nit",
+        "Escales mecàniques aturades",
+        "Publicitat de perfum a la paret",
+        "Músic de carrer al passadís",
+        "Vent que ve del túnel",
+        "Llum fluorescent que parpelleja",
+        "Mapa del metro tacat"
+      ],
+      "so": [
+        "Se sent el xiscle del tren", "Anunci en català i castellà",
+        "La guitarra del músic", "El murmuri de la gent",
+        "El silenci quan s’aturen les portes", "Un cop sec al túnel",
+        "Passos que ressonen", "El pànic contingut"
+      ],
+      "olor": [
+        "Fa olor de fum i metall", "L’aire és calent i tancat",
+        "Fa olor de perfum barat", "L’olor de suor i metro",
+        "Fa olor de netejador i ferro", "L’aire porta olor de mar",
+        "Fa olor de plàstic calent", "L’olor de pols vella"
+      ]
+    },
+    "tags": ["transport", "public", "claustrofobic"],
+    "genero": ["thriller", "terror", "policiac"]
+  },
+  {
+    "id": "esc_bcn_barri_001",
+    "ciutat": "Barcelona",
+    "pais": "Espanya",
+    "nom": "Carrerons del Born",
+    "texto_base": "Als {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Pedra mullada sota els peus",
+        "Balcons amb roba estesa",
+        "Finestres petites i llum groga",
+        "Portes de fusta vella",
+        "Gats que creuen corrents",
+        "Motos aparcades al pas",
+        "Graffiti a la paret",
+        "Testos amb flors als ampits"
+      ],
+      "so": [
+        "Algú parla en veu baixa", "El so de talons a la pedra",
+        "Una porta que es tanca", "El so llunyà de la Rambla",
+        "Un gos que borda", "El vent entre els cables",
+        "Una moto que s’allunya", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de mar i pedra mullada", "L’aire porta olor de fregit",
+        "Fa olor de vi i fum", "L’olor de roba mullada",
+        "Fa olor de pa torrat", "L’aire porta olor de mar",
+        "Fa olor de pintura fresca", "L’olor de pols i pedra"
+      ]
+    },
+    "tags": ["exterior", "nocturn", "estret"],
+    "genero": ["policiac", "thriller", "romance", "terror"]
+  },
+  {
+    "id": "esc_mx_zocalo_001",
+    "ciutat": "Ciutat de Mèxic",
+    "pais": "Mèxic",
+    "nom": "Zòcalo",
+    "texto_base": "Al {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Plaça immensa amb gent asseguda",
+        "Bandera gegant onejant",
+        "Venedors de globus i paletes",
+        "Guàrdies al voltant del palau",
+        "Coloms que aixequen el vol",
+        "Font al centre amb aigua",
+        "Bancs de ferro vell",
+        "Músics amb guitarra"
+      ],
+      "so": [
+        "Música de mariachi llunyà", "El so dels autobusos",
+        "Venedors cridant", "El soroll de mil passes",
+        "El silenci quan passa la guàrdia", "Una trompeta desafina",
+        "El murmuri de la multitud", "Un crit llunyà"
+      ],
+      "olor": [
+        "Fa olor de tortilla i smog", "L’aire porta olor de flors de jacaranda",
+        "Fa olor de pluja sobre terra calenta", "L’olor de sucre i fregit",
+        "Fa olor de fum i pols", "L’aire porta olor de mar",
+        "Fa olor de cafè i sucre", "L’olor de pols i gent"
+      ]
+    },
+    "tags": ["exterior", "public", "multitud"],
+    "genero": ["policiac", "romance", "fantasia", "comedia"]
+  },
+  {
+    "id": "esc_mx_coyoacan_001",
+    "ciutat": "Ciutat de Mèxic",
+    "pais": "Mèxic",
+    "nom": "Coyoacán, Carrer Frida Kahlo",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Carrers empedrats i cases de colors",
+        "Murals a la paret",
+        "Cafès amb taules al carrer",
+        "Venedors d’artesania",
+        "Gossos dormint al sol",
+        "Flors a les finestres",
+        "Bicletes aparcades",
+        "Portes de fusta pintades"
+      ],
+      "so": [
+        "Música de guitarra", "El so dels nens jugant",
+        "Un venedor cridant", "El so dels talons a la pedra",
+        "El murmuri dels cafès", "Un gos que borda",
+        "El vent entre els arbres", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de flors i cafè", "L’aire porta olor de pintura fresca",
+        "Fa olor de tortilla i xile", "L’olor de fusta vella",
+        "Fa olor de llibres vells", "L’aire porta olor de mar",
+        "Fa olor de sucre i canyella", "L’olor de pols i colors"
+      ]
+    },
+    "tags": ["exterior", "dia", "bohemi"],
+    "genero": ["romance", "policiac", "fantasia", "comedia"]
+  },
+  {
+    "id": "esc_ar_santelmo_001",
+    "ciutat": "Buenos Aires",
+    "pais": "Argentina",
+    "nom": "San Telmo, Carrer Defensa",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Pedra irregular sota els peus",
+        "Balcons amb reixa de ferro",
+        "Tango que surt d’un bar",
+        "Parada d’antiguitats al carrer",
+        "Graffiti a la paret",
+        "Cafè amb olor de crema",
+        "Portes de fusta vella",
+        "Farols antics encesos"
+      ],
+      "so": [
+        "El bandoneó del tanguero", "El so dels talons a la pedra",
+        "Algú cridant a la cantonada", "El murmuri del bar",
+        "Un taxi que frena", "El vent entre els balcons",
+        "El so d’un violí", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de cafè i fum", "L’aire porta olor de pluja i pedra",
+        "Fa olor de cuir vell", "L’olor de vi i fum",
+        "Fa olor de pa calent", "L’aire porta olor de mar",
+        "Fa olor de perfum barat", "L’olor de pols i temps"
+      ]
+    },
+    "tags": ["exterior", "nocturn", "tango"],
+    "genero": ["romance", "policiac", "thriller", "comedia"]
+  },
+  {
+    "id": "esc_ar_boca_001",
+    "ciutat": "Buenos Aires",
+    "pais": "Argentina",
+    "nom": "La Boca, Caminito",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Cases de xapa de colors vius",
+        "Murals i banderes",
+        "Venedors de records",
+        "Ballarins de tango al carrer",
+        "Graffiti a cada paret",
+        "Cadires de plàstic al carrer",
+        "Gats dormint al sol",
+        "Portes de colors cridaners"
+      ],
+      "so": [
+        "Tango fort des d’un altaveu", "El so dels turistes",
+        "Un venedor cridant", "El murmuri de la gent",
+        "Un tambor llunyà", "El vent entre les xapes",
+        "Un gos que borda", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de carn a la graella", "L’aire porta olor de pintura fresca",
+        "Fa olor de fum i graella", "L’olor de cuir vell",
+        "Fa olor de cafè i sucre", "L’aire porta olor de mar",
+        "Fa olor de pintura i fusta", "L’olor de pols i colors"
+      ]
+    },
+    "tags": ["exterior", "dia", "turistic"],
+    "genero": ["comedia", "romance", "policiac"]
+  },
+  {
+    "id": "esc_co_poblado_001",
+    "ciutat": "Medellín",
+    "pais": "Colòmbia",
+    "nom": "El Poblado, Parc Lleras",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Taules de bar al carrer",
+        "Gent jove rient",
+        "Música de reggaeton de fons",
+        "Venedors ambulants",
+        "Llum de neó als locals",
+        "Motos aparcades al voral",
+        "Flors als testos",
+        "Gent ballant al carrer"
+      ],
+      "so": [
+        "Reggaeton fort", "El so de les copes",
+        "Algú cridant el nom d’un amic", "El murmuri de la multitud",
+        "Una moto que accelera", "El vent entre els arbres",
+        "Un crit de felicitat", "El silenci entre cançons"
+      ],
+      "olor": [
+        "Fa olor de cervesa i fum", "L’aire porta olor de pluja i terra",
+        "Fa olor de carn a la graella", "L’olor de perfum barat",
+        "Fa olor de sucre i alcohol", "L’aire porta olor de flors",
+        "Fa olor de tabac i fum", "L’olor de pols i nit"
+      ]
+    },
+    "tags": ["exterior", "nocturn", "festa"],
+    "genero": ["romance", "policiac", "comedia", "thriller"]
+  },
+  {
+    "id": "esc_co_comuna13_001",
+    "ciutat": "Medellín",
+    "pais": "Colòmbia",
+    "nom": "Comuna 13, Escales Elèctriques",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Escales elèctriques entre cases de colors",
+        "Murals gegants a la paret",
+        "Nens jugant al carrer",
+        "Venedors d’aigua i fruita",
+        "Graffiti polític",
+        "Música que surt d’una finestra",
+        "Gossos dormint a l’ombra",
+        "Cables penjant per tot arreu"
+      ],
+      "so": [
+        "Reggaeton des d’una finestra", "El so dels nens jugant",
+        "Un venedor cridant", "El murmuri de la gent",
+        "El so de les escales", "El vent entre els cables",
+        "Un gos que borda", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de pluja i terra mullada", "L’aire porta olor de fruita fresca",
+        "Fa olor de fum i graella", "L’olor de pintura fresca",
+        "Fa olor de cafè i sucre", "L’aire porta olor de flors",
+        "Fa olor de fum i pols", "L’olor de pols i colors"
+      ]
+    },
+    "tags": ["exterior", "dia", "pendent"],
+    "genero": ["policiac", "thriller", "romance"]
+  },
+  {
+    "id": "esc_gir_riu_001",
+    "ciutat": "Girona",
+    "pais": "Espanya",
+    "nom": "Riu Onyar, Pont de Ferro",
+    "texto_base": "Al {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Aigua fosca sota el pont",
+        "Cases de colors reflectides",
+        "Vent que ve del riu",
+        "Turistes fent fotos",
+        "Ànecs nedant",
+        "Baranes de ferro vell",
+        "Pedra mullada",
+        "Silenci trencat per un cigne"
+      ],
+      "so": [
+        "L’aigua que xoca contra el pilar", "El so de les càmeres",
+        "Un cigne que bat les ales", "El murmuri dels turistes",
+        "El vent entre les bigues", "Un gos que borda lluny",
+        "El silenci del riu", "Un pas que ressona al pont"
+      ],
+      "olor": [
+        "Fa olor d’aigua i pedra mullada", "L’aire porta olor de mar",
+        "Fa olor de pa que tiren als ànecs", "L’olor de fum llunyà",
+        "Fa olor de ferro mullat", "L’aire porta olor de pluja",
+        "Fa olor de fang", "L’olor de pedra i aigua"
+      ]
+    },
+    "tags": ["exterior", "riu", "nocturn"],
+    "genero": ["policiac", "romance", "terror"]
+  },
+  {
+    "id": "esc_bcn_playa_001",
+    "ciutat": "Barcelona",
+    "pais": "Espanya",
+    "nom": "Platja de la Barceloneta",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Sorres humides i gent estirada",
+        "Ones que trenquen suaus",
+        "Venedors de cervesa",
+        "Nens jugant a la vora",
+        "Gavines cridant",
+        "Xiringuitos plens",
+        "Vent que ve del mar",
+        "Silenci a primera hora"
+      ],
+      "so": [
+        "El so de les ones", "Gavines que criden",
+        "Un venedor cridant", "El murmuri de la gent",
+        "El vent entre els para-sols", "Un nen que riu",
+        "El silenci del mar", "Una guitarra llunyana"
+      ],
+      "olor": [
+        "Fa olor de sal i mar", "L’aire porta olor de crema solar",
+        "Fa olor de fum de graella", "L’olor de peix fresc",
+        "Fa olor de cervesa freda", "L’aire porta olor de mar",
+        "Fa olor de sorra mullada", "L’olor de fum i sal"
+      ]
+    },
+    "tags": ["exterior", "dia", "mar"],
+    "genero": ["romance", "comedia", "policiac"]
+  },
+  {
+    "id": "esc_mx_mercat_001",
+    "ciutat": "Ciutat de Mèxic",
+    "pais": "Mèxic",
+    "nom": "Mercat de Coyoacán",
+    "texto_base": "Al {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Parades plenes de fruita",
+        "Gent que regateja",
+        "Olles bullint",
+        "Venedors cridant preus",
+        "Flors de colors vius",
+        "Passadissos estrets",
+        "Gats rondant",
+        "Llum que entra per les escletxes"
+      ],
+      "so": [
+        "Venedors cridant", "El so dels ganivets tallant",
+        "Música de ràdio", "El murmuri de la gent",
+        "Un nen que plora", "El so d’una balança",
+        "El silenci del passadís", "Un gos que borda"
+      ],
+      "olor": [
+        "Fa olor de xile i cilantre", "L’aire porta olor de fruita madura",
+        "Fa olor de fum i graella", "L’olor de flors fresques",
+        "Fa olor de carn crua", "L’aire porta olor de mar",
+        "Fa olor de sucre i canyella", "L’olor de pols i gent"
+      ]
+    },
+    "tags": ["interior", "dia", "multitud"],
+    "genero": ["policiac", "comedia", "romance"]
+  },
+  {
+    "id": "esc_ar_subte_001",
+    "ciutat": "Buenos Aires",
+    "pais": "Argentina",
+    "nom": "Subte Línia A, Estació Perú",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Andana antiga amb rajoles",
+        "Vagó de fusta vella",
+        "Gent apretada",
+        "Publicitat antiga a la paret",
+        "Vent que ve del túnel",
+        "Llum groga i feble",
+        "Músic amb bandoneó",
+        "Silenci quan s’aturen les portes"
+      ],
+      "so": [
+        "El xiscle del tren", "Anunci en castellà",
+        "El bandoneó del músic", "El murmuri de la gent",
+        "El silenci quan s’aturen les portes", "Un cop sec al túnel",
+        "Passos que ressonen", "El pànic contingut"
+      ],
+      "olor": [
+        "Fa olor de fum i metall", "L’aire és calent i tancat",
+        "Fa olor de perfum barat", "L’olor de suor i metro",
+        "Fa olor de netejador i ferro", "L’aire porta olor de mar",
+        "Fa olor de plàstic calent", "L’olor de pols vella"
+      ]
+    },
+    "tags": ["transport", "public", "claustrofobic"],
+    "genero": ["thriller", "terror", "policiac"]
+  },
+  {
+    "id": "esc_co_metro_001",
+    "ciutat": "Medellín",
+    "pais": "Colòmbia",
+    "nom": "Metro de Medellín, Estació Poblado",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Andana neta i moderna",
+        "Gent jove amb motxilla",
+        "Música de fons",
+        "Publicitat de telèfons",
+        "Vent que ve del túnel",
+        "Llum blanca i forta",
+        "Músic amb guitarra",
+        "Silenci quan s’aturen les portes"
+      ],
+      "so": [
+        "Anunci en castellà", "El so del tren arribant",
+        "La guitarra del músic", "El murmuri de la gent",
+        "El silenci quan s’aturen les portes", "Un cop sec al túnel",
+        "Passos que ressonen", "El pànic contingut"
+      ],
+      "olor": [
+        "Fa olor de netejador i ferro", "L’aire és fresc i tancat",
+        "Fa olor de perfum barat", "L’olor de suor i metro",
+        "Fa olor de plàstic nou", "L’aire porta olor de muntanya",
+        "Fa olor de cafè fresc", "L’olor de pols vella"
+      ]
+    },
+    "tags": ["transport", "public", "modern"],
+    "genero": ["thriller", "policiac", "romance"]
+  },
+  {
+    "id": "esc_gir_call_001",
+    "ciutat": "Girona",
+    "pais": "Espanya",
+    "nom": "El Call Jueu",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Carrerons estrets i foscos",
+        "Pedra antiga sota els peus",
+        "Finestres petites i altes",
+        "Portes de fusta massissa",
+        "Silenci que pesa",
+        "Ombres llargues",
+        "Cartells històrics a la paret",
+        "Gats que creuen corrents"
+      ],
+      "so": [
+        "Els passos ressonen", "El vent xiula entre els murs",
+        "Una porta que grinyola", "El murmuri llunyà",
+        "El silenci dens", "Un cop sec llunyà",
+        "El so d’aigua que degota", "El silenci del carreró"
+      ],
+      "olor": [
+        "Fa olor de pedra vella i humitat", "L’aire és fred i tancat",
+        "Fa olor de fusta vella", "L’olor de pols antiga",
+        "Fa olor de fum llunyà", "L’aire porta olor de pluja",
+        "Fa olor de pedra i temps", "L’olor de silenci"
+      ]
+    },
+    "tags": ["exterior", "nocturn", "historic"],
+    "genero": ["terror", "policiac", "thriller"]
+  },
+  {
+    "id": "esc_bcn_sagrada_001",
+    "ciutat": "Barcelona",
+    "pais": "Espanya",
+    "nom": "Sagrada Família, Façana del Naixement",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Torres que pugen al cel",
+        "Turistes amb càmeres",
+        "Escultures de pedra detallades",
+        "Llum que passa pels vitralls",
+        "Gent asseguda al parc",
+        "Obrers treballant a dalt",
+        "Coloms que volen",
+        "Silenci respectuós"
+      ],
+      "so": [
+        "El murmuri dels turistes", "El so de les eines lluny",
+        "Una guia explicant", "El vent entre les torres",
+        "El silenci respectuós", "Un nen que pregunta",
+        "El so d’una càmera", "El silenci de la pedra"
+      ],
+      "olor": [
+        "Fa olor de pedra i pols", "L’aire porta olor de pi",
+        "Fa olor de fum llunyà", "L’olor de turistes i sol",
+        "Fa olor de netejador", "L’aire porta olor de mar",
+        "Fa olor de pedra calenta", "L’olor de silenci"
+      ]
+    },
+    "tags": ["exterior", "dia", "monument"],
+    "genero": ["policiac", "romance", "fantasia", "thriller"]
+  },
+  {
+    "id": "esc_mx_cantona_001",
+    "ciutat": "Ciutat de Mèxic",
+    "pais": "Mèxic",
+    "nom": "Cantona, Piràmides",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Pedra volcànica sota els peus",
+        "Piràmides en silenci",
+        "Vent sec que ve de la muntanya",
+        "Guia explicant en veu baixa",
+        "Sol que crema",
+        "Silenci immens",
+        "Ocells que volen lluny",
+        "Ombres llargues"
+      ],
+      "so": [
+        "El vent entre les pedres", "El murmuri de la guia",
+        "El silenci immens", "Un ocell llunyà",
+        "El so dels passos a la pedra", "El silenci del desert",
+        "Un crit llunyà", "El silenci de la història"
+      ],
+      "olor": [
+        "Fa olor de pedra calenta i pols", "L’aire és sec i net",
+        "Fa olor de sol i terra", "L’olor de cactus i sec",
+        "Fa olor de fum llunyà", "L’aire porta olor de muntanya",
+        "Fa olor de pedra i temps", "L’olor de silenci"
+      ]
+    },
+    "tags": ["exterior", "dia", "historic"],
+    "genero": ["fantasia", "policiac", "thriller"]
+  },
+  {
+    "id": "esc_ar_recoleta_001",
+    "ciutat": "Buenos Aires",
+    "pais": "Argentina",
+    "nom": "Cementiri de la Recoleta",
+    "texto_base": "A {{nom}}, {{ciutat}}. {{ambient}} {{so}} {{olor}}",
+    "banco_variables": {
+      "ambient": [
+        "Mausoleus de marbre blanc",
+        "Passadissos estrets entre tombes",
+        "Estàtues d’àngels",
+        "Flors fresques a les làpides",
+        "Silenci dens",
+        "Ombres llargues",
+        "Portes de ferro forjat",
+        "Gats que caminen entre tombes"
+      ],
+      "so": [
+        "Els passos ressonen", "El vent entre els xiprers",
+        "Una porta que grinyola", "El murmuri llunyà",
+        "El silenci dens", "Un cop sec llunyà",
+        "El so d’aigua que degota", "El silenci del cementiri"
+      ],
+      "olor": [
+        "Fa olor de flors fresques i marbre", "L’aire és fred i humit",
+        "Fa olor de cera cremada", "L’olor de pols antiga",
+        "Fa olor de fusta vella", "L’aire porta olor de pluja",
+        "Fa olor de pedra i temps", "L’olor de silenci"
+      ]
+    },
+    "tags": ["exterior", "dia", "sagrat"],
+    "genero": ["terror", "policiac", "thriller", "romance"]
+  }
+    ]
