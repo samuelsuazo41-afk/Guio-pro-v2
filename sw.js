@@ -1,8 +1,8 @@
-const CACHE_NAME = 'guio-pro-v1';
+const CACHE_NAME = 'guio-pro-v3';
 const urlsToCache = [
   './',
   './index.html?v=1',
-  './style.css?v=1',  // <- OJO: al index tens style.css, aquí posaves styles.css
+  './styles.css?v=1',
   './main.js?v=1',
   './manifest.json?v=1',
   './data/loaderjson.js',
