@@ -1,4 +1,4 @@
-// main.js - Guio-Pro v3.6 FIX FINAL SUBMENÚS
+// main.js - Guio-Pro v3.5 FIX FINAL SUBMENÚS
 import { loadAllBancs } from './data/loaderjson.js';
 import { generarLlibre } from './core/generadorlilibre.js';
 
