@@ -1,0 +1,269 @@
+[
+  {
+    "id": "esc_pol_001",
+    "texto_base": "Entro a {{escenario}} de {{ciutat}}. {{percepcio}} {{objeto}}. {{so_ambient}} {{sensacio}} {{tancament}}",
+    "banco_variables": {
+      "escenario": [
+        "dins del despatx, on l’aire feia olor de pols vella",
+        "al carreró fosc, amb la llum d’un fanal que tremolava",
+        "a l’arxiu municipal, entre carpetes grogues",
+        "dalt del terrat, amb el vent que xiulava entre les antenes",
+        "al soterrani, on la humitat enganxava la roba",
+        "dins de la llibreria tancada, amb els llibres girats",
+        "a l’aparcament buit, amb un cotxe amb el motor calent",
+        "dins de l’ascensor aturat entre pisos",
+        "al magatzem del museu, amb caixes segellades",
+        "a la sacristia, amb ciris a mig consumir",
+        "dins del tren aturat a l’estació",
+        "al balcó del tercer pis, amb {{ciutat}} a sota",
+        "a la barberia tancada, amb la cadira encara girada",
+        "dins del taxi, amb el taxímetre en marxa",
+        "al lavabo públic, amb l’aixeta degotant"
+      ],
+      "percepcio": [
+        "De seguida veig", "Em crida l’atenció", "No puc evitar mirar",
+        "El meu ull es clava en", "Hi ha alguna cosa sobre", "A terra destaca",
+        "Sento que hi ha", "El meu instint em porta a", "El reflex del vidre mostra",
+        "Entre l’ombra distingeixo", "El meu nas capta", "El silenci em deixa veure",
+        "El meu peu xafa", "La llum revela"
+      ],
+      "objeto": [
+        "una carta oberta sobre la taula", "un ganivet amb taques fosques",
+        "una clau petita penjant d’un fil", "un mòbil amb la pantalla trencada",
+        "una fotografia cremada per una punta", "un mocador tacat de vermell",
+        "un quadern amb les pàgines arrencades", "una empremta humida al terra",
+        "una bala buida al racó", "un USB amb el plàstic ratllat",
+        "una cinta adhesiva amb pèls enganxats", "una nota amb lletra desordenada",
+        "un rellotge aturat a les 3:14", "un cigarret a mig consumir",
+        "una butxaca girada del revés"
+      ],
+      "so_ambient": [
+        "De fons se sent {{so}}.", "L’aire porta {{olor}}.", "Res trenca el silenci excepte {{so}}.",
+        "{{olor}} s’enfila per les escales.", "Un soroll llunyà de {{so}}.",
+        "L’olor de {{olor}} em tapa la boca.", "{{ciutat}} dorm, però {{so}} no.",
+        "Un cop sec ressona amb {{so}}.", "L’olor de {{olor}} em gira l’estómac."
+      ],
+      "sensacio": [
+        "El cor em batega fort.", "Se’m talla la respiració.", "Un fred em recorre l’esquena.",
+        "Em pugen calfreds.", "La boca se’m seca.", "Em falta l’aire.",
+        "Les mans em tremolen.", "Sento un nus a l’estómac.", "El temps sembla aturar-se.",
+        "Un nus em puja a la gola.", "Les cames em pesen.", "La pell se’m posa de gallina.",
+        "El cap em zumba.", "Em falta terra sota els peus."
+      ],
+      "tancament": [
+        "No sé si estic preparat per el que ve.", "Sé que això ho canvia tot.",
+        "Aquest és el punt de no retorn.", "Res tornarà a ser igual a {{ciutat}}.",
+        "Acabo de creuar una línia.", "A partir d’ara, tot és perillós.",
+        "He obert una porta que no es tanca.", "Aquesta és la prova que faltava.",
+        "Si ho explico, no em creuran.", "Ara tinc alguna cosa a perdre."
+      ]
+    },
+    "elecciones": [
+      {"texto": "Agafar {{objeto}}", "next": "esc_pol_002"},
+      {"texto": "Sortir d’allà immediatament", "next": "esc_pol_003"}
+    ],
+    "genero": "policiac", "categoria": "Descobriment"
+  },
+  {
+    "id": "esc_rom_001",
+    "texto_base": "{{accions}} {{espai}} de {{ciutat}}. {{mirada}} {{sensacio}} {{pensament}} {{olor_ambient}}",
+    "banco_variables": {
+      "accions": ["M’acosto", "Em quedo quiet", "Faig un pas", "Baixo la veu", "Allargo la mà", "Em mossego el llavi", "Respiro fons", "Tanco els ulls un segon"],
+      "espai": [
+        "al cafè on sempre seiem", "al banc del parc sota el plataner",
+        "dins del taxi quan plou", "al balcó amb {{ciutat}} a sota",
+        "al metro quan s’aturen les portes", "a la llibreria entre els passadissos",
+        "a la terrassa buida", "davant de la porta de casa",
+        "al cinema amb la sala gairebé buida", "al pont amb el riu a sota"
+      ],
+      "mirada": [
+        "La seva mirada em busca.", "Els nostres ulls es creuen.",
+        "Baixa els ulls i somriu.", "No desvia la vista.",
+        "Em mira com si em conegués.", "Tanca els ulls quan em sent.",
+        "Mira la meva boca quan parlo.", "Em mira i no diu res."
+      ],
+      "sensacio": [
+        "Se’m tensa el pit.", "Sento calor a la cara.",
+        "La respiració em canvia.", "Les mans em suen.",
+        "El cor em va lent.", "Em falta l’aire.",
+        "El cos em pesa.", "Tinc fred i calor a la vegada."
+      ],
+      "pensament": [
+        "No hauria de dir res.", "Si parlo, ho espatllo.",
+        "Vull tocar-li la mà.", "Aquest silenci em mata.",
+        "Si ho dic, la perdo.", "Si callo, em penediré.",
+        "Aquest moment no torna.", "No sé si té parella."
+      ],
+      "olor_ambient": [
+        "{{olor}} s’enfila des del carrer.", "De fons arriba {{so}}.",
+        "L’aire de {{ciutat}} ho fa tot més real.", "Fa olor de {{olor}} i pluja.",
+        "El seu perfum es barreja amb {{olor}}.", ""
+      ]
+    },
+    "elecciones": [
+      {"texto": "Dir-li el que penso", "next": "esc_rom_002"},
+      {"texto": "Callar i esperar", "next": "esc_rom_003"}
+    ],
+    "genero": "romance", "categoria": "Tensió"
+  },
+  {
+    "id": "esc_ter_001",
+    "texto_base": "{{percepcio}} {{element}} a {{ciutat}}. {{soroll}} {{por}} {{so_ambient}}",
+    "banco_variables": {
+      "percepcio": ["Veig", "Distingeixo", "Crec que veig", "Em sembla", "La cantonada de l’ull capta", "El reflex del vidre mostra"],
+      "element": [
+        "una ombra que no hauria d’estar aquí",
+        "una porta oberta a les 3 de la matinada",
+        "una figura al mirall",
+        "una empremta humida al terra",
+        "una respiració que no és la meva",
+        "una cadira moguda",
+        "una llum encesa a l’habitació buida",
+        "una ombra que es mou quan jo no em moc"
+      ],
+      "soroll": [
+        "Se sent un grinyol llarg.", "Algú xiuxiueja el meu nom.",
+        "Un vidre es trenca a l’habitació del costat.", "Passes s’acosten lentament.",
+        "Algú riu baixet.", "Se sent una porta tancar-se sola.",
+        "Un cop sec ve de sota el llit.", "Algú respira darrere meu."
+      ],
+      "por": [
+        "No puc moure’m.", "La respiració se’m talla.",
+        "Tinc la certesa que no estic sol.", "El fred em paralitza.",
+        "La veu no em surt.", "Les cames no em responen.",
+        "Només puc mirar.", "Sento que si parpellejo desapareix."
+      ],
+      "so_ambient": [
+        "{{so}} ressona pel carrer buit.", "L’aire de {{ciutat}} porta {{olor}}.",
+        "Només se sent {{so}}.", "{{ciutat}} dorm i això ho fa pitjor.",
+        "El silenci pesa més que {{so}}.", "L’olor de {{olor}} em tapa la boca."
+      ]
+    },
+    "elecciones": [
+      {"texto": "Prendre la llanterna", "next": "esc_ter_002"},
+      {"texto": "Sortir corrents", "next": "esc_ter_003"}
+    ],
+    "genero": "terror", "categoria": "Sovint"
+  },
+  {
+    "id": "esc_thr_001",
+    "texto_base": "A {{ciutat}} m’adono que {{manipulacio}}. {{dubte}} {{so_ambient}} {{tancament}}",
+    "banco_variables": {
+      "manipulacio": [
+        "algú m’ha estat mentint des del principi",
+        "el que recordo no va passar així",
+        "les proves m’incriminen a mi",
+        "algú ha reescrit el que vaig veure",
+        "el meu alibi no existeix",
+        "les càmeres em situen en un altre lloc",
+        "algú sap el que penso abans que ho pensi",
+        "el meu telèfon té converses que jo no vaig fer"
+      ],
+      "dubte": [
+        "No sé si puc confiar en la meva ment.",
+        "Si estic boig, això té sentit.",
+        "Si no ho estic, algú és molt bo.",
+        "La línia entre les dues coses s’esborra.",
+        "Potser jo vaig fer-ho i no ho recordo.",
+        "Potser algú vol que pensi que estic boig."
+      ],
+      "so_ambient": [
+        "{{so}} no m’ajuda a pensar.", "L’aire porta {{olor}} i nervis.",
+        "{{ciutat}} sembla conèixer el meu secret.", "El soroll de {{so}} em persegueix.",
+        "L’olor de {{olor}} em mareja.", "Cada cop que sento {{so}}, em giro."
+      ],
+      "tancament": [
+        "He de comprovar-ho jo mateix.", "No puc preguntar a ningú.",
+        "Si m’equivoco, em perdo.", "Si encerto, em maten.",
+        "No puc confiar en ningú.", "Només tinc la meva memòria, i falla."
+      ]
+    },
+    "elecciones": [
+      {"texto": "Buscar proves amagades", "next": "esc_thr_002"},
+      {"texto": "Enfrontar qui menteix", "next": "esc_thr_003"}
+    ],
+    "genero": "thriller", "categoria": "Manipulació"
+  },
+  {
+    "id": "esc_fan_001",
+    "texto_base": "A {{ciutat}} {{descobriment}} {{magia}}. {{por}} {{so_ambient}} {{decisio}}",
+    "banco_variables": {
+      "descobriment": ["Toco el símbol i", "Diu el meu nom i", "La porta s’obre i", "El llibre cau i", "Sento la paraula i", "El mirall em mostra i"],
+      "magia": [
+        "la paret respira",
+        "els carrers de {{ciutat}} es doblen",
+        "una llum surt de les meves mans",
+        "els gats em parlen",
+        "el temps s’atura un segon",
+        "les lletres del llibre es mouen",
+        "l’aire té gust de coure",
+        "les ombres tenen pes"
+      ],
+      "por": [
+        "Sento que no hauria de veure això.",
+        "El meu cos sap que això és perillós.",
+        "La màgia té un preu i l’he de pagar.",
+        "Si m’hi acosto, ja no torno enrere.",
+        "Si ho dic, em prendran per boig.",
+        "Si ho uso, em marcaran."
+      ],
+      "so_ambient": [
+        "{{so}} canvia de to.", "L’aire ara fa olor de {{olor}}.",
+        "{{ciutat}} sembla viure.", "El so de {{so}} és diferent ara.",
+        "L’olor de {{olor}} és dolça i perillosa.", "El silenci té pes."
+      ],
+      "decisio": [
+        "He d’amagar-ho.", "He d’aprendre.", "He de fugir.", "He de cridar ajuda.",
+        "He de tocar-ho un altre cop.", "He de tancar el llibre."
+      ]
+    },
+    "elecciones": [
+      {"texto": "Tocar el símbol un altre cop", "next": "esc_fan_002"},
+      {"texto": "Tancar el llibre i marxar", "next": "esc_fan_003"}
+    ],
+    "genero": "fantasia", "categoria": "Despertar"
+  },
+  {
+    "id": "esc_com_001",
+    "texto_base": "A {{ciutat}} {{situacio}} {{absurd}}. {{vergonya}} {{so_ambient}} {{salida}}",
+    "banco_variables": {
+      "situacio": [
+        "Em cau el cafè a sobre", "M’oblido els pantalons", "Truco a l’ex per error",
+        "Em quedo atrapat al lavabo", "Em confonc de nom", "M’enfango amb fang",
+        "Em cau la carpeta amb tots els papers", "Em quedo sense bateria al discurs"
+      ],
+      "absurd": [
+        "davant del meu cap.", "enmig de la reunió.",
+        "quan just m’està mirant.", "amb el micròfon obert.",
+        "en directe a Instagram.", "davant de la família.",
+        "just quan deia que sóc professional.", "amb càmeres."
+      ],
+      "vergonya": [
+        "El terra em sembla bona opció.",
+        "Vull que m’empassi {{ciutat}}.",
+        "Somric com un idiota.",
+        "Parlo més ràpid per dissimular.",
+        "Em poso vermell fins a les orelles.",
+        "Riuig per no plorar.",
+        "Fingeixo que és broma.",
+        "Vull desaparèixer."
+      ],
+      "so_ambient": [
+        "De fons {{so}} fa que sigui pitjor.", "L’aire porta {{olor}} i riure contingut.",
+        "{{ciutat}} sencera sembla mirar.", "El soroll de {{so}} ho amplifica.",
+        "L’olor de {{olor}} em mareja.", "Se sent un silenci incòmode."
+      ],
+      "salida": [
+        "Fingir que és performance.", "Dir que és art.",
+        "Culpar el gat.", "Marxar i canviar de ciutat.",
+        "Fer una broma pitjor.", "Acceptar la humiliació.",
+        "Dir que és un experiment social.", "Bloquejar a tothom."
+      ]
+    },
+    "elecciones": [
+      {"texto": "Improvisar una excusa", "next": "esc_com_002"},
+      {"texto": "Acceptar la humiliació", "next": "esc_com_003"}
+    ],
+    "genero": "comedia", "categoria": "Humiliació"
+  }
+      ]
