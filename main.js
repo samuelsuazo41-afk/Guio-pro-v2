@@ -1,4 +1,4 @@
-// main.js - Guio-Pro v3.6 FIX SUBMENÚS REALS
+// main.js - Guio-Pro v3.7 FIX DESPLEGAMENT SUBMENÚS
 import { loadAllBancs } from './data/loaderjson.js';
 import { generarLlibre } from './core/generadorlilibre.js';
 
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     bancs = await loadAllBancs();
     console.log('Bancs carregats:', Object.keys(bancs));
-    console.log('Contingut bancs:', bancs); // per debugar
+    console.log('Contingut bancs:', bancs);
     renderAllSubtabs();
     enganxarEventListeners();
     console.log('App lista ✅');
@@ -50,7 +50,6 @@ function enganxarEventListeners() {
 }
 
 function renderAllSubtabs() {
-  // Llegeix directe de l’array del JSON. Si no existeix, usa fallback dur
   const generos = bancs.banco_generes || ['Drama','Romàntica','Thriller','Fantasia','Sci-Fi','Històrica'];
   renderSubtabs('genere-content', generos, 'genere');
 
