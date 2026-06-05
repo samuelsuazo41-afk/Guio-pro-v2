@@ -1,4 +1,4 @@
-const CACHE_NAME = 'Pro-Guion-v30';
+const CACHE_NAME = 'Pro-Guion-v35';
 const urlsToCache = [
   './',
   './index.html?v=7',
