@@ -3,7 +3,7 @@ export async function loadAllBancs() {
   const bancsFiles = [
     'banco_estructura.json',
     'banco_generes.json',
-    'banco_personatges.json',
+    'banco_personatge.json',
     'banco_escenarios.json',
     'banco_emocions.json',
     'banco_ecenes.json',
