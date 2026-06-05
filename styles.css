@@ -117,9 +117,9 @@ header p {
   gap: 8px;
 }
 
-.tab.open .tab-content {
-  max-height: 500px; /* suficiente para 8-10 botones */
-  padding: 12px 16px 16px 16px;
+.tab.open > .tab-content {
+  max-height: 500px !important;
+  padding: 12px 16px 16px 16px !important;
 }
 
 /* BOTONES SUBTABS */
