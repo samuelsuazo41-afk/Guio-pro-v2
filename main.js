@@ -1,4 +1,4 @@
-// main.js - Guio-Pro v4.1 FIX DEFINITIVO DESPLEGABLES + GENEROS
+// main.js - Guio-Pro v6.0 FLUX 3 NIVELLS + 9 BANCS
 import { loadAllBancs } from './data/loaderjson.js';
 import { generarLlibre } from './core/generadorlilibre.js';
 
@@ -6,13 +6,17 @@ let bancs = {};
 let llibreActual = null;
 let configActual = {
   genere: null,
+  personatgeId: null,
+  personatgeNom: null,
   nCapitols: 4,
   mon: null,
-  personatge: null,
-  estil: 'Directe'
+  escenari: null,
+  escenariNom: null,
+  estil: 'Directe',
+  intensitat: 'mitjana'
 };
 
-console.log('main.js cargado v4.1');
+console.log('main.js carregat v6.0');
 
 document.addEventListener('DOMContentLoaded', async () => {
   console.log('DOM ready');
@@ -20,7 +24,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     bancs = await loadAllBancs();
     console.log('Bancs carregats:', Object.keys(bancs));
 
-    renderAllSubtabs();
+    renderGeneres();
+    renderEstructura();
+    renderEstil();
     enganxarEventListeners();
     console.log('App lista ✅');
   } catch (err) {
@@ -31,22 +37,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function enganxarEventListeners() {
   const headers = document.querySelectorAll('.tab-header');
-  console.log('Headers encontrados:', headers.length);
-
   headers.forEach(header => {
     header.addEventListener('click', (e) => {
       e.preventDefault();
-      console.log('Click en tab header');
       const tab = header.closest('.tab');
       const estabaAbierto = tab.classList.contains('open');
-      console.log('Estaba abierto:', estabaAbierto);
-
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('open'));
-
-      if (!estabaAbierto) {
-        tab.classList.add('open');
-        console.log('Tab abierto:', tab.dataset.tab);
-      }
+      if (!estabaAbierto) tab.classList.add('open');
     });
   });
 
@@ -55,18 +52,17 @@ function enganxarEventListeners() {
   document.getElementById('btn-exportar').addEventListener('click', exportarTxt);
 }
 
-// FUNCIÓN NUEVA: acepta array directo o objeto con clave
 function getArray(data,...keys) {
-  if (Array.isArray(data)) return data; // si es array directo
+  if (Array.isArray(data)) return data;
   if (!data) return [];
   for (let key of keys) {
-    if (Array.isArray(data[key])) return data[key]; // busca la clave
+    if (Array.isArray(data[key])) return data[key];
   }
   return [];
 }
 
-function renderAllSubtabs() {
-  // Generos: mapea valores técnicos a nombres bonitos
+// NIVELL 1: GÈNERE - dispara render Personatge + Escenari
+function renderGeneres() {
   const generos = getArray(bancs.banco_generes, 'generos', 'llista', 'items');
   const nombresBonitos = {
     policiac: 'Policiac',
@@ -76,32 +72,77 @@ function renderAllSubtabs() {
     fantasia: 'Fantasia',
     comedia: 'Comèdia'
   };
-  const generosFallback = ['policiac','romance','terror','thriller','fantasia','comedia'];
-  renderSubtabs('genere-content', generos.length? generos : generosFallback, 'genere', v => nombresBonitos[v] || v);
+  const fallback = ['policiac','romance','terror','thriller','fantasia','comedia'];
+  renderSubtabs('genere-content', generos.length? generos : fallback, 'genere', v => nombresBonitos[v] || v, (v) => {
+    configActual.genere = v;
+    renderPersonatges(v);
+    renderMon();
+  });
+}
 
+// NIVELL 2: PERSONATGE - filtra per genere
+function renderPersonatges(genere) {
+  const personatges = bancs.banco_personatge || [];
+  const filtrats = personatges.filter(p => p.genero === genere);
+  const items = filtrats.map(p => ({
+    id: p.id,
+    nom: p.banco_variables?.nom?.[0] || p.nom || p.id
+  }));
+  renderSubtabs('personatge-content', items, 'personatgeId', v => v.nom, (v) => {
+    configActual.personatgeId = v.id;
+    configActual.personatgeNom = v.nom;
+  });
+}
+
+// NIVELL 2: ESTRUCTURA - fix
+function renderEstructura() {
   renderSubtabs('estructura-content', [3,4,6,8,12], 'nCapitols', v => `${v} cap`);
+}
 
-  const escenaris = getArray(bancs.banco_escenarios, 'tipos', 'escenaris', 'llista');
-  renderSubtabs('mon-content', escenaris.length? escenaris : ['Aleatori','Ciutat','Rural','Històric','Futurista','Mar'], 'mon');
+// NIVELL 2: MÓN - ciutats úniques de banco_escenarios.json
+function renderMon() {
+  const escenaris = bancs.banco_escenarios || [];
+  const ciutats = [...new Set(escenaris.map(e => e.ciutat).filter(Boolean))];
+  const fallback = ['Girona','Barcelona','Aleatori'];
+  renderSubtabs('mon-content', ciutats.length? ciutats : fallback, 'mon', v => v, (v) => {
+    configActual.mon = v;
+    renderEscenaris(v);
+  });
+}
 
-  const arquetips = getArray(bancs.banco_personatges, 'arquetipos', 'arquetips', 'llista');
-  renderSubtabs('personatges-content', arquetips.length? arquetips : ['Aleatori','Heroïna','Antiheroi','Mentor','Vilà','Grup'], 'personatge');
+// NIVELL 3: ESCENARI - filtra per ciutat + genere
+function renderEscenaris(ciutat) {
+  const escenaris = bancs.banco_escenarios || [];
+  const filtrats = escenaris.filter(e =>
+    e.ciutat === ciutat && (!configActual.genere || e.genero?.includes(configActual.genere))
+  );
+  const items = filtrats.map(e => ({
+    id: e.id,
+    nom: e.nom
+  }));
+  renderSubtabs('escenari-content', items, 'escenari', v => v.nom, (v) => {
+    configActual.escenari = v.id;
+    configActual.escenariNom = v.nom;
+  });
+}
 
+// NIVELL 2: ESTIL
+function renderEstil() {
   renderSubtabs('estil-content', ['Directe','Poètic','Juvenil','Adult'], 'estil');
 }
 
-function renderSubtabs(containerId, items, configKey, labelFn = v => v) {
+function renderSubtabs(containerId, items, configKey, labelFn = v => v, onClick = null) {
   const container = document.getElementById(containerId);
   if (!container) {
-    console.warn('Container no encontrado:', containerId);
+    console.warn('Container no trobat:', containerId);
     return;
   }
 
   container.innerHTML = '';
-  console.log(`Pintando ${containerId} con ${items.length} items:`, items);
+  console.log(`Pintant ${containerId} amb ${items.length} items`);
 
   if (configActual[configKey] === null && items.length > 0) {
-    configActual[configKey] = items[0];
+    configActual[configKey] = items[0].id || items[0];
   }
 
   if (items.length === 0) {
@@ -112,14 +153,16 @@ function renderSubtabs(containerId, items, configKey, labelFn = v => v) {
   items.forEach(item => {
     const btn = document.createElement('button');
     btn.className = 'subtab-btn';
+    const value = item.id || item;
     btn.textContent = labelFn(item);
-    if (configActual[configKey] === item) btn.classList.add('active');
+    if (configActual[configKey] === value) btn.classList.add('active');
 
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       container.querySelectorAll('.subtab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      configActual[configKey] = item;
+      configActual[configKey] = value;
+      if (onClick) onClick(item);
       console.log('Config actualitzada:', configActual);
     });
 
@@ -131,7 +174,7 @@ function mostrarOutline() {
   const resultat = document.getElementById('resultat');
   const beats = getArray(bancs.banco_estructura, 'beats');
   if (!beats.length) {
-    resultat.innerHTML = '<p style="color:var(--danger)">Error: no se encontró banco_estructura.json o no té beats</p>';
+    resultat.innerHTML = '<p style="color:var(--danger)">Error: no es troba banco_estructura.json o no té beats</p>';
     return;
   }
 
