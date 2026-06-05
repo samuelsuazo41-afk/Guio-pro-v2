@@ -20,7 +20,7 @@ const urlsToCache = [
   './data/determinants.json',
   './icon-192.png?v=2',
   './icon-512.png?v=2',
-  './icon-512-maskable.png?v=1'
+  './icon-512-maskable.png?v=2'
 ];
 
 // Instal·lació: cachejar i activar immediatament
