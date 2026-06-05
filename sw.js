@@ -1,4 +1,4 @@
-const CACHE_NAME = 'guio-pro-v11';
+const CACHE_NAME = 'guio-pro-v16';
 const urlsToCache = [
   './',
   './index.html?v=2',
