@@ -1,9 +1,9 @@
 const CACHE_NAME = 'guio-pro-v11';
 const urlsToCache = [
   './',
-  './index.html?v=1',
-  './styles.css?v=1',
-  './main.js?v=1',
+  './index.html?v=2',
+  './styles.css?v=2',
+  './main.js?v=2',
   './manifest.json?v=1',
   './data/loaderjson.js',
   './core/generadorlilibre.js',
