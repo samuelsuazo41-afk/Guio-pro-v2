@@ -1,10 +1,9 @@
-// main.js - Guio-Pro v3.9 DEBUG
+// main.js - Guio-Pro v4.0 FIX DEFINITIVO DESPLEGABLES
 import { loadAllBancs } from './data/loaderjson.js';
 import { generarLlibre } from './core/generadorlilibre.js';
 
 let bancs = {};
 let llibreActual = null;
-
 let configActual = {
   genere: null,
   nCapitols: 4,
@@ -13,18 +12,20 @@ let configActual = {
   estil: 'Directe'
 };
 
-console.log('main.js cargado');
+console.log('main.js cargado v4.0');
 
 document.addEventListener('DOMContentLoaded', async () => {
   console.log('DOM ready');
   try {
     bancs = await loadAllBancs();
     console.log('Bancs carregats:', Object.keys(bancs));
+
     renderAllSubtabs();
     enganxarEventListeners();
     console.log('App lista ✅');
   } catch (err) {
     console.error('Error iniciant app:', err);
+    document.getElementById('resultat').innerHTML = '<p style="color:var(--danger)">Error carregant bancs. Revisa F12</p>';
   }
 });
 
@@ -54,17 +55,28 @@ function enganxarEventListeners() {
   document.getElementById('btn-exportar').addEventListener('click', exportarTxt);
 }
 
+// FUNCIÓN NUEVA: acepta array directo o objeto con clave
+function getArray(data,...keys) {
+  if (Array.isArray(data)) return data; // si es array directo
+  if (!data) return [];
+  for (let key of keys) {
+    if (Array.isArray(data[key])) return data[key]; // busca la clave
+  }
+  return [];
+}
+
 function renderAllSubtabs() {
-  const generos = bancs.banco_generes || ['Drama','Romàntica','Thriller','Fantasia','Sci-Fi','Històrica'];
-  renderSubtabs('genere-content', generos, 'genere');
+  // Acepta: array directo O {generos: [...]} O {tipos: [...]}
+  const generos = getArray(bancs.banco_generes, 'generos', 'llista', 'items');
+  renderSubtabs('genere-content', generos.length? generos : ['Drama','Romàntica','Thriller','Fantasia','Sci-Fi','Històrica'], 'genere');
 
   renderSubtabs('estructura-content', [3,4,6,8,12], 'nCapitols', v => `${v} cap`);
 
-  const escenaris = bancs.banco_escenaris || ['Aleatori','Ciutat','Rural','Històric','Futurista','Mar'];
-  renderSubtabs('mon-content', escenaris, 'mon');
+  const escenaris = getArray(bancs.banco_escenarios, 'tipos', 'escenaris', 'llista');
+  renderSubtabs('mon-content', escenaris.length? escenaris : ['Aleatori','Ciutat','Rural','Històric','Futurista','Mar'], 'mon');
 
-  const arquetips = bancs.banco_personatges || ['Aleatori','Heroïna','Antiheroi','Mentor','Vilà','Grup'];
-  renderSubtabs('personatges-content', arquetips, 'personatge');
+  const arquetips = getArray(bancs.banco_personatges, 'arquetipos', 'arquetips', 'llista');
+  renderSubtabs('personatges-content', arquetips.length? arquetips : ['Aleatori','Heroïna','Antiheroi','Mentor','Vilà','Grup'], 'personatge');
 
   renderSubtabs('estil-content', ['Directe','Poètic','Juvenil','Adult'], 'estil');
 }
@@ -77,10 +89,15 @@ function renderSubtabs(containerId, items, configKey, labelFn = v => v) {
   }
 
   container.innerHTML = '';
-  console.log(`Pintando ${containerId} con ${items.length} items`);
+  console.log(`Pintando ${containerId} con ${items.length} items:`, items);
 
   if (configActual[configKey] === null && items.length > 0) {
     configActual[configKey] = items[0];
+  }
+
+  if (items.length === 0) {
+    container.innerHTML = '<p style="color:var(--danger);font-size:0.8rem">Sense dades</p>';
+    return;
   }
 
   items.forEach(item => {
@@ -88,24 +105,29 @@ function renderSubtabs(containerId, items, configKey, labelFn = v => v) {
     btn.className = 'subtab-btn';
     btn.textContent = labelFn(item);
     if (configActual[configKey] === item) btn.classList.add('active');
+
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       container.querySelectorAll('.subtab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       configActual[configKey] = item;
+      console.log('Config actualitzada:', configActual);
     });
+
     container.appendChild(btn);
   });
 }
 
 function mostrarOutline() {
   const resultat = document.getElementById('resultat');
-  if (!bancs.banco_estructura?.beats) {
-    resultat.innerHTML = '<p style="color:var(--danger)">Error: no se encontró banco_estructura.json</p>';
+  const beats = getArray(bancs.banco_estructura, 'beats');
+  if (!beats.length) {
+    resultat.innerHTML = '<p style="color:var(--danger)">Error: no se encontró banco_estructura.json o no té beats</p>';
     return;
   }
+
   let html = `<h2>Outline - ${configActual.genere || 'Aleatori'}</h2>`;
-  bancs.banco_estructura.beats.forEach(beat => {
+  beats.forEach(beat => {
     html += `<p><b>Beat ${beat.id}: ${beat.nom}</b> - ${beat.objectiu || ''}</p><hr>`;
   });
   resultat.innerHTML = html;
