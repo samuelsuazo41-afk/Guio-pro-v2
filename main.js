@@ -1,4 +1,4 @@
-// main.js - Guio-Pro v4.0 FIX DEFINITIVO DESPLEGABLES
+// main.js - Guio-Pro v4.1 FIX DEFINITIVO DESPLEGABLES + GENEROS
 import { loadAllBancs } from './data/loaderjson.js';
 import { generarLlibre } from './core/generadorlilibre.js';
 
@@ -12,7 +12,7 @@ let configActual = {
   estil: 'Directe'
 };
 
-console.log('main.js cargado v4.0');
+console.log('main.js cargado v4.1');
 
 document.addEventListener('DOMContentLoaded', async () => {
   console.log('DOM ready');
@@ -66,9 +66,18 @@ function getArray(data,...keys) {
 }
 
 function renderAllSubtabs() {
-  // Acepta: array directo O {generos: [...]} O {tipos: [...]}
+  // Generos: mapea valores técnicos a nombres bonitos
   const generos = getArray(bancs.banco_generes, 'generos', 'llista', 'items');
-  renderSubtabs('genere-content', generos.length? generos : ['Drama','Romàntica','Thriller','Fantasia','Sci-Fi','Històrica'], 'genere');
+  const nombresBonitos = {
+    policiac: 'Policiac',
+    romance: 'Romàntica',
+    terror: 'Terror',
+    thriller: 'Thriller',
+    fantasia: 'Fantasia',
+    comedia: 'Comèdia'
+  };
+  const generosFallback = ['policiac','romance','terror','thriller','fantasia','comedia'];
+  renderSubtabs('genere-content', generos.length? generos : generosFallback, 'genere', v => nombresBonitos[v] || v);
 
   renderSubtabs('estructura-content', [3,4,6,8,12], 'nCapitols', v => `${v} cap`);
 
